@@ -1,1 +1,68 @@
+#INTRODUÇÃO#                                     
+##Grupo 01 Beatriz Martins, a043545 Rita Nunes, a043237## 
 
+**Cadeia de lojas:** 
+Nome: B&R 
+Número de lojas: 5 
+Localização: Porto, Algarve, Lisboa, Aveiro, Castelo Branco 
+
+Stock: 
+Estação: Primavera - Verão 
+Sexo: masculino, feminino, unisex 
+Número de peças: 70 
+Tipo de peças: camisola, camisa, casaco, calças, vestido, saia, calções 
+Camisola: 
+Tipo de camisola: t-shirt, manga comprida, com/sem alças, top, body  
+Tamanhos das camisolas: XS – XXL  
+Material das camisolas: malha, renda, tule, poliamida, cetim, ganga 
+Cor das camisolas: vermelho, verde, laranja, castanho, bege, rosa, cinzento, amarelo, azul, branco, preto 
+Preço das camisolas: T-shirt malha: 12€ 
+Camisa: 
+Tipo de camisa: manga comprida, manga curta, blusa 
+Tamanhos das camisas: XS – XXL  
+Material das camisas: linho, renda, malha, seda 
+Cor das camisas: vermelho, verde, castanho, bege, rosa, cinzento, azul, branco, preto 
+Casaco:  
+Tamanhos dos casacos: XS – XXL  
+Tipo de casaco: colete, com capucho, sobretudo, botões, fecho, blazer  
+Material dos casacos: malha, pele, linho, seda, fazenda, cetim, ganga 
+Cor dos casacos: vermelho, verde, castanho, bege, rosa, cinzento, azul, branco, preto 
+Calça: 
+Tipo de calças: fato de treino, straight leg, mom jeans, flare leg, wide leg, skinny, cinta baixa, cinta média, cinta alta, calça de fato 
+Tamanhos das calças: 32 – 46  
+Material das calças: malha, ganga, linho 
+Cor das calças: vermelho, verde, castanho, bege, rosa, cinzento, azul, branco, preto 
+Vestido: 
+Tipo de vestido: longo, mídi, curto, costa aberta, perna aberta, alça, manga comprida 
+Tamanhos dos vestidos: XS – XXL  
+Material dos vestidos: malha, ganga, tule, poliamida, cetim 
+Cor dos vestidos: vermelho, verde, laranja, castanho, bege, rosa, cinzento, amarelo, azul, branco, preto 
+Saia: 
+Tipo de saia: longa, mídi, curta, perna aberta, folhos, justa, larga 
+Tamanhos das saias: 32 – 46  
+Material das saias: malha, ganga, tule, cetim  
+Cor das saias: vermelho, verde, laranja, castanho, bege, rosa, cinzento, amarelo, azul, branco, preto 
+Calções:
+Tipo de calções: cinta alta, cinta média, cinta baixa, compridos, médios, curtos, justos, largos 
+Tamanhos dos calções: 32 – 46 
+Material dos calções: malha, ganga, linho 
+Cor dos calções: vermelho, verde, castanho, bege, rosa, cinzento, azul, branco, preto 
+
+Ponto de Venda: 
+Registo de vendas: peça de roupa, preço, dia de venda, recibo digital, cliente, contacto 
+Formas de pagamento: cartão de crédito, cartão de débito, dinheiro 
+Recibo: digital, papel 
+Desconto: percentagem, peça, validade 
+
+Cliente: 
+Histórico de compra: peças, tamanho, sexo 
+Dados pessoais: nome, contacto, e-mail, idade, morada, NIF 
+
+Funcionários: 
+Número de funcionários: 10 
+Dados pessoais: nome, contacto, e-mail, idade, morada, IBAN, NIF 
+Horário de trabalho: data, hora, nome 
+Folgas: data, nome do funcionário 
+Tarefas: tarefa, funcionário, data, horário 
+
+Tipo de tarefas:  
