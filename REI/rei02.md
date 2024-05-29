@@ -5,13 +5,13 @@
 
 Entidades: 
 
-CADEIA DE LOJAS (quantidade de lojas) 
+LOJA (quantidade, localizacao, nome) 
 - Quantidade: 5  
 - LOJAS (localização, nome) 
 - Localização: Porto, Aveiro, Lisboa, Castelo Branco, Algarve 
 - Nome:  B&R  
 
-FORNECEDOR (NIF, IBAN, nome, morada, contacto, email, histórico de pedidos, prazos de entrega) 
+FORNECEDOR (NIF, IBAN, nome, morada, contacto, email, histórico_de_pedidos, prazos_de_entrega) 
 - NIF: número de identificação fiscal do fornecedor 
 - IBAN: requisito para pagamento da loja ao armazém 
 - Nome:  Primeiro e último nome do fornecedor 
@@ -20,7 +20,7 @@ FORNECEDOR (NIF, IBAN, nome, morada, contacto, email, histórico de pedidos, pra
 - Histórico de pedidos: histórico de todos os pedidos efetuados pela loja até aquele momento 
 - Prazos de entrega: data prevista, data-limite 
 
-CLIENTE (contacto, contribuinte) 
+CLIENTE (contacto, contribuinte, nome) 
 - Contacto: contacto do cliente para obter a fatura via digital 
 - Contribuinte: opção fatura com contribuinte 
 
@@ -31,7 +31,7 @@ FUNCIONARIO (NIF, IBAN, morada, contacto, nome)
 - Contacto: número de telefone de cada funcionário 
 - Nome: denominação de cada funcionário 
 
-PONTO DE VENDA (registo de venda, desconto, data, recibo, pagamento) 
+PONTO DE VENDA (registode venda, desconto, data, recibo, pagamento) 
 - Registo de venda: registo das vendas efetuadas em cada loja (chave primária) 
 - Desconto: existência ou não de vales de desconto ou promoções em loja 
 - Data: dia, mês e ano da compra 
