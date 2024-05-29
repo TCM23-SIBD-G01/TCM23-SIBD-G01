@@ -1,1 +1,30 @@
+#C2
+##01 Beatriz Martins a043545, Rita Nunes a043237 
+
+**Esquema Relacional** 
+
+Loja        (localizacao, id)
+Cliente     (contacto, contribuinte, nome)
+Compra      (id, data, nomeCliente, valorcompra, descontoAplicado, metodoPagamento)
+        #clienteContacto  -> Cliente NN
+Fornecedor (nif, morada, nome, prazoEntrega, iban, historicoPedidos, email, contacto)
+Encomenda   (idEncomenda, idLoja, idFornecedor, dataEntrega, dataEncomenda, valorEncomenda, quantidade, metodoEnvio)
+        #fornecedorNif -> Fornecedor NN
+Produto     (codigo, materail, quantidade, preco, cor, nome, sexo, estacao)
+        #encomendaIdEncomenda     -> Encomenda NN 
+        #fornecedorNif   -> Fornecedor NN
+Tamanho     (descricao, categoriaPeca, unidadeMedida)
+        #produtoCodigo   -> Produto NN
+Funcionarios(nif, iban, quantidade, horario, nome, contacto, email, morada, idade)
+Tarefas     (horario, data)
+OperaEm     (#nif -> Funcionarios, #iban -> Funcionarios, #horario -> tarefas, #data -> tarefas)
+TrabalhamEm (#localizacao -> Loja, #nif -> Funcionarios, #iban -> Funcionarios)
+AtendidoPor (#contacto -> Cliente, #nif -> Funcionarios, #iban -> Funcionarios)
+Trabalho    (#horario -> Tarefa, #data -> tarefa, tipo)
+Stock       (#codigo -> produto, quantidade)
+
+
+
+
+
 
