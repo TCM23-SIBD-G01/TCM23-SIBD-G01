@@ -4,5 +4,4 @@
 
 **Modelo E/A**
 
-![Diagrama1(4)](https://github.com/TCM23-SIBD-G01/TCM23-SIBD-G01/assets/153848864/b2e8f2a4-cbcf-447f-8454-4ed0c3b9e27f)
-
+![Diagrama1(4)](https://github.com/TCM23-SIBD-G01/TCM23-SIBD-G01/assets/153848864/75f74857-767b-456c-ba2a-a64c48aeebb9)
