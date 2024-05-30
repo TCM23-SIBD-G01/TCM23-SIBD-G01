@@ -1,4 +1,7 @@
+#C1
+##Grupo 01 Beatriz Martins a043545, Rita Nunes a043237 
 
+**Introdução** 
 
 Para o trabalho da unidade curricular de Sistemas de Informação e Bases de Dados a desenvolver, como grupo decidimos abordar um sistema de informação sobre uma cadeia de lojas fictícia.
 
