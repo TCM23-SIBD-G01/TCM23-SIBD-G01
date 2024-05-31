@@ -90,8 +90,7 @@
 
 ### Tamanho
 | Descricao  |  CategoriaPeça     |   UnidadeMedida |
-| :--------  | :----------------- | :-------------- | 
-|
+| :-------- | :----------------- | :-------------- | 
 
 
 ### Funcionarios
@@ -99,21 +98,28 @@
 | :----------- | :------------ | :------------- | :------------ | :---------------- | :---------------- | :----------- | :----------- |
 
 
-OperaEm
-Nif      Iban      Horario
+### OperaEm
+| Nif   |   Iban   |   Horario |
+| :--------  | :----------------- | :-------------- |
+
+### TrabalhamEm 
+| Localizacao   |   Nif    |    Iban  |
+| :-------- | :----------------- | :-------------- |
 
 
-TrabalhamEm (#localizacao -> Loja, #nif -> Funcionarios, #iban -> Funcionarios)
-Localizacao      Nif        Iban
+### AtendidoPor
+| Contacto     |    Nif     |      Iban  |
+| :-------- | :----------------- | :-------------- |
 
 
-AtendidoPor
-Contacto         Nif           Iban
+
+### Trabalho
+| Horario     |   Data    |    Tipo |
+| :-------- | :----------------- | :-------------- |
 
 
-Trabalho
-Horario        Data        Tipo
 
+### Stock
+|  Codigo     |   Quantidade |
+| :-------- | :----------------- | 
 
-Stock
-Codigo           Quantidade
