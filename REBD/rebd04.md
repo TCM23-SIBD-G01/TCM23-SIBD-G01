@@ -3,50 +3,69 @@
 
 **Esquema Relacional** 
 
-Loja        (localizacao, id)
-Cliente     (contacto, contribuinte, nome)
-Compra      (id, data, nomeCliente, valorcompra, descontoAplicado, metodoPagamento,
+## Loja        
+(localizacao, id)
+## Cliente     
+(contacto, contribuinte, nome)
+## Compra      
+(id, data, nomeCliente, valorcompra, descontoAplicado, metodoPagamento,
         #clienteContacto  -> Cliente NN)
-Fornecedor (nif, morada, nome, prazoEntrega, iban, historicoPedidos, email, contacto)
-Encomenda   (idEncomenda, idLoja, idFornecedor, dataEntrega, dataEncomenda, valorEncomenda, quantidade, metodoEnvio,
+## Fornecedor 
+(nif, morada, nome, prazoEntrega, iban, historicoPedidos, email, contacto)
+## Encomenda   
+(idEncomenda, idLoja, idFornecedor, dataEntrega, dataEncomenda, valorEncomenda, quantidade, metodoEnvio,
         #fornecedorNif -> Fornecedor NN)
-Produto     (codigo, material, quantidade, preco, cor, nome, sexo, estacao,
+## Produto     
+(codigo, material, quantidade, preco, cor, nome, sexo, estacao,
         #encomendaIdEncomenda     -> Encomenda NN 
         #fornecedorNif   -> Fornecedor NN
         #materialNome  -> Material NN
         #codigoHexadecimalCor  -> Cor NN)
-Tamanho     (codigo, categoriaPeca, unidadeMedida,
+## Tamanho     
+(codigo, categoriaPeca, unidadeMedida,
         #produtoCodigo   -> Produto NN)
-Funcionarios(nif, iban, quantidade, horario, nome, contacto, email, morada, idade)
-Tarefas     (horario, data)
-Material    (nome, composicao, proprieades, instrucoesCuidados)
-Cor         (codigoHexadecimal, nome)
-OperaEm     (#nif -> Funcionarios, #iban -> Funcionarios, #horario -> tarefas, #data -> tarefas)
-TrabalhamEm (#localizacao -> Loja, #nif -> Funcionarios, #iban -> Funcionarios)
-AtendidoPor (#contacto -> Cliente, #nif -> Funcionarios, #iban -> Funcionarios)
-Trabalho    (#horario -> Tarefa, #data -> tarefa, tipo)
-Stock       (#codigo -> produto, quantidade)
+## Funcionarios
+(nif, iban, quantidade, horario, nome, contacto, email, morada, idade)
+## Tarefas     
+(horario, data)
+## Material    
+(nome, composicao, proprieades, instrucoesCuidados)
+## Cor         
+(codigoHexadecimal, nome)
+## OperaEm     
+(#nif -> Funcionarios, #iban -> Funcionarios, #horario -> tarefas, #data -> tarefas)
+## TrabalhamEm 
+(#localizacao -> Loja, #nif -> Funcionarios, #iban -> Funcionarios)
+## AtendidoPor 
+(#contacto -> Cliente, #nif -> Funcionarios, #iban -> Funcionarios)
+## Trabalho    
+(#horario -> Tarefa, #data -> tarefa, tipo)
+## Stock       
+(#codigo -> produto, quantidade)
 
-Loja
-Localizacao        Id
-Algarve
-Lisboa
-Castelo Branco
-Aveiro
-Porto
+### Loja
+| Localizacao      |  Id     |
+| :--------------- | :------ |
+| Algarve          |   |
+| Lisboa           |   |
+| Castelo Branco   |   |
+| Aveiro           |   |
+| Porto            |   |
 
 
-Cliente
-Contacto     Contribuinte    Nome
-912345981    273380087       Maria Andrade
-987789654    280099821       Inês Machado
+### Cliente
+| Contacto    | Contribuinte  |  Nome
+| :---------- | :------------ | :------------ |
+| 912345981   | 273380087     |  Maria Andrade
+| 987789654   | 280099821     |  Inês Machado
 
 
-Compra
-Id        Data         NomeCliente    ValorCompra     DescontoAplicado     MetodoPagamento
-891-22    25/05/2024   Maria Andrade     25€             10%                  mbway
-895-45    29/05/2024   Inês Machado      30€             5%                  cartão de Crédito
-920-32    15/06/2024   Joana Pacheco     10€             25%                  dinheiro
+### Compra
+| Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
+| :------- | :--------- | :-------------- || :----------- | :------------------ | :------------------ |
+| 891-22   | 25/05/2024 |  Maria Andrade  |   25€         |   10%               |   mbway             |
+| 895-45   | 29/05/2024 |  Inês Machado   |   30€         |    5%               |   cartão de Crédito |
+| 920-32   | 15/06/2024 |  Joana Pacheco  |   10€         |    25%              |    dinheiro         |
 
 
 Fornecedor
