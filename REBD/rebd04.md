@@ -26,8 +26,6 @@
         #produtoCodigo   -> Produto NN)
 ## Funcionarios
 (nif, iban, quantidade, horario, nome, contacto, email, morada, idade)
-## Tarefas     
-(horario, data)
 ## Material    
 (nome, composicao, proprieades, instrucoesCuidados)
 ## Cor         
@@ -42,6 +40,8 @@
 (#horario -> Tarefa, #data -> tarefa, tipo)
 ## Stock       
 (#codigo -> produto, quantidade)
+## Tarefas
+(#id -> funcionarios, descricao)
 
 ### Loja
 | Localizacao      |  Id     |
@@ -62,7 +62,7 @@
 
 ### Compra
 | Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
-| :------- | :--------- | :-------------- || :----------- | :------------------ | :------------------ |
+| :------- | :--------- | :-------------- | :----------- | :------------------ | :------------------ |
 | 891-22   | 25/05/2024 |  Maria Andrade  |   25€         |   10%               |   mbway             |
 | 895-45   | 29/05/2024 |  Inês Machado   |   30€         |    5%               |   cartão de Crédito |
 | 920-32   | 15/06/2024 |  Joana Pacheco  |   10€         |    25%              |    dinheiro         |
@@ -93,9 +93,6 @@ Descrição    CategoriaPeça        UnidadeMedida
 Funcionarios
 Nif     Iban       Quantidade            Horario           Nome            Contacto    Email               Morada            Idade
 
-
-Tarefas
-Horario             Data
 
 
 OperaEm
