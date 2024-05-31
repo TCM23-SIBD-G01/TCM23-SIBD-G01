@@ -2,7 +2,7 @@
 
 ## Grupo 01 Beatriz Martins a043545, Rita Nunes a043237 
 
-**Introdução** 
+### Introdução  
 
 Para o trabalho da unidade curricular de Sistemas de Informação e Bases de Dados a desenvolver, como grupo decidimos abordar um sistema de informação sobre uma cadeia de lojas fictícia.
 
@@ -25,3 +25,7 @@ As tarefas são divididas em categorias e cada tarefa tem a data em que foi cria
 Os clientes que fazem compras em qualquer das lojas, no ato de pagamento dão o seu nome, contacto e nif.
 
 Todas as compras têm um Id único, uma data de efetuação, nome do cliente, o valor da compra, os descontos aplicados (se houver) e o método de pagamento escolhido pelo cliente.
+
+### Requisitos de Utilizador
+
+
