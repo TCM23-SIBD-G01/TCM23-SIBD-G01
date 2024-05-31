@@ -28,4 +28,47 @@ Todas as compras têm um Id único, uma data de efetuação, nome do cliente, o 
 
 ### Requisitos de Utilizador
 
+Os utilizadores do Sistema de Informação desenvolvido são os donos da cadeia de lojas, os gerentes das lojas e os funcionários que lá trabalharam.
 
+DONOS:
+
+Visão Geral de Operações: gestão de vendas e stock; 
+capacidade de gerar relatórios sobre vendas, lucros e despesas das lojas.
+
+Gestão de Vendas: acesso a dados de vendas em tempo real; análise tendências de vendas ao longo do tempo.
+
+Gestão de Stock: visualização do stock atual em cada loja; alertas de reposição; previsão da demanda futura a partit de dados históricos.
+
+Gestão Financeira: monitoramento dos custos operacionais; rastreamento de despezas.
+
+Promoções e Descontos: criação de promoções e descontos; planear campanhas de marketing.
+
+FUNCIONÁRIOS:
+
+Gestão de Vendas e Atendimento ao Cliente: registo de vendas, trocas e devoluções; integração com sistemas de pagamento para aceitar várias formas de pagamento; verificação de informações de produtos.
+
+Gestão de Stock: atualização de níveis de stock em tempo real; registo de entrada de novos produtos; realização de inventários periódicos.
+
+Gestão de Clientes: acesso ao histórico de compras dos clientes.
+
+Gestão de Tarefas e Turnos: visualização dos horários de trabalho; atribuição e acompanhamento de tarefas.
+
+Comunicação: comunicação interna por mensagem; alertas sobre promoções, mudanças de turnos e aquisição de tarefas.
+
+Treino e Suporte: disponibilidade de manuais de usuário e guias de procedimentos; acesso a suporte técnico.
+
+Promoções e Marketing: aplicação de descontos e promoções durante a venda; exibição de promoções atuais.
+
+GERENTES DE LOJA
+
+Gestão de Vendas: acesso a dados de vendas em tempo real.
+
+Gestão de Stock: visualização de níveis de stock; solicitação de reabastecimento de stock; realização de contagens de inventário.
+
+Gestão de Funcionários: gerência de horários de trabalho dos funcionários; criação e delegação de tarefas.
+
+Gestão Financeira: monitoramento de custos operacionais e orçamentos da loja; gerência da caixa registadora.
+
+Comunicação: comunicação interna por mensagem; alertas sobre eventos importantes.
+
+Suporte Técnico: acesso ao suporte técnico; disponibilidade de manuais de usuário e guias de procedimento. 
