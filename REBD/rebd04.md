@@ -45,11 +45,11 @@
 ### Loja
 | Localizacao      |  Id     |
 | :--------------- | :------ |
-| Algarve          |   |
-| Lisboa           |   |
-| Castelo Branco   |   |
-| Aveiro           |   |
-| Porto            |   |
+| Algarve          | 000000000  |
+| Lisboa           | 000000000    |
+| Castelo Branco   | 000000000    |
+| Aveiro           | 000000000    |
+| Porto            | 000000000    |
 
 
 ### Cliente
