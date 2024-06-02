@@ -10,7 +10,7 @@ COMPRA (_**id**_, data, nomeCliente, valorcompra, descontoAplicado, metodoPagame
 
 FORNECEDOR (_**id**_, morada, nome, iban, email, contacto)
 
-ENCOMENDA (_**id**_, nif, dataEntrega, dataPedido, valorEncomenda, quantidade, metodoEnvio)
+ENCOMENDA (_**id**_, nif, dataEntrega, dataPedido, valorEncomenda, quantidade, metodoEnvio, idFornecedor)
 
 PRODUTO (_**codigoBarras**_, quantidade, preco, nome, sexo, estacao, categoria)
 
@@ -31,7 +31,7 @@ STOCK (quantidade)
 
 ### **1NF | 2NF | 3NF | BCNF**
 
-### Loja
+### LOJA
 | Localizacao      |  Id        | Nome |
 | :--------------- | :--------- | :----|
 | Algarve          | 000000000  | B&R  |
@@ -40,7 +40,7 @@ STOCK (quantidade)
 | Aveiro           | 000000000  | B&R  |
 | Porto            | 000000000  | B&R  |
 
-### Compra
+### COMPRA
 | Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
 | :------- | :--------- | :-------------- | :------------ | :------------------ | :------------------ |
 | 891-22   | 25/05/2024 |  Maria Andrade  |   25€         |    10%              |   mbway             |
@@ -48,17 +48,64 @@ STOCK (quantidade)
 | 920-32   | 15/06/2024 |  Joana Pacheco  |   10€         |    25%              |   dinheiro          |
 
 
-### Cliente
+### CLIENTE
 | Contacto    | Nif           |  Nome
 | :---------- | :------------ | :------------- |
 | 912345981   | 273380087     |  Maria Andrade |
 | 987789654   | 280099821     |  Inês Machado  |
 
-### Fornecedor
+### FORNECEDOR
 | Id           | Nif          |   Morada                                  |   Nome         |     Iban   |   Email                |  Contacto  |
 | :----------- | :----------- | :---------------------------------------- | :------------- | :--------- | :--------------------- | :--------- |
 |              | 273498176    |   Rua do Calvário, Casais, nº8 4620-091   |   José Nunes   |            | jose.nunes@gmail.com   |  914229916 |
 |              | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087   |   André Mendes |            | andre.mendes@gmail.com |  934278967 |
+
+### ENCOMENDA
+| Id  |    IdLoja     |   IdFornecedor |  DataEntrega  |  DataEncomenda    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio |
+| :----------- | :------------ | :------------- | :------------ | :---------------- | :---------------- | :----------- | :----------- |
+|
+
+### PRODUTO
+| CodigoBarras |  Quantidade |   Preco   |        Nome          |   Sexo      |   Estacao   |
+| :----------- | :---------- | :-------- | :------------------- | :---------- | :---------- |
+| 2813-888     |    1        | 16€* 1    | Calções Largos       |  Masculinho |  Primavera  |
+| 2819-989     |    5        | 25€* 5    | Vestido Floral       |  Feminino   |  Verão      |
+| 2819-989     |    10       | 20€* 10   | Calças Boca de Sino  |  Feminino   |  Primavera  |
+
+
+### TAMANHO
+| Codigo    |  CategoriaPeça     |   UnidadeMedida |
+| :-------- | :----------------- | :-------------- | 
+
+### COR
+| CódigoHexadecimal  | Nome    |
+| :----------------- | :------ |
+| #0000FF            | Azul    |
+| #A020F0            | Roxo    |
+
+
+### MATERIAL
+
+### FUNCIONARIO
+| Nif    | Iban   |    Quantidade      |      Horario    |       Nome   |         Contacto  |   Email        |       Morada      |   Idade |  Id  |
+| :----------- | :------------ | :------------- | :------------ | :---------------- | :---------------- | :----------- | :----------- |
+
+### Completa
+| Nif   |   Iban   |   Horario |
+| :--------  | :----------------- | :-------------- |
+
+### TrabalhamEm 
+| Localizacao   |   Nif    |    Iban  |
+| :-------- | :----------------- | :-------------- |
+
+### AtendidoPor
+| Contacto     |    Nif     |      Iban  |
+| :-------- | :----------------- | :-------------- |
+
+### Stock       
+(#codigo -> produto, quantidade)
+### Tarefas
+(#id -> funcionarios, descricao)
 
 
 
