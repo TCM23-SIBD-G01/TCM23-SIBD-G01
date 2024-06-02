@@ -34,11 +34,11 @@ STOCK (quantidade)
 ### LOJA
 | Localizacao      |  Id        | Nome |
 | :--------------- | :--------- | :----|
-| Algarve          | 000000000  | B&R  |
-| Lisboa           | 000000000  | B&R  |
-| Castelo Branco   | 000000000  | B&R  |
-| Aveiro           | 000000000  | B&R  |
-| Porto            | 000000000  | B&R  |
+| Algarve          | 042429899  | B&R  |
+| Lisboa           | 042429900  | B&R  |
+| Castelo Branco   | 042429900  | B&R  |
+| Aveiro           | 042429901  | B&R  |
+| Porto            | 042429902  | B&R  |
 
 ### COMPRA
 | Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
@@ -55,10 +55,10 @@ STOCK (quantidade)
 | 987789654   | 280099821     |  Inês Machado  |
 
 ### FORNECEDOR
-| Id           | Nif          |   Morada                                  |   Nome         |     Iban   |   Email                |  Contacto  |
-| :----------- | :----------- | :---------------------------------------- | :------------- | :--------- | :--------------------- | :--------- |
-| 444-4418     | 273498176    |   Rua do Calvário, Casais, nº8 4620-091   |   José Nunes   |            | jose.nunes@gmail.com   |  914229916 |
-| 444-45555    | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087   |   André Mendes |            | andre.mendes@gmail.com |  934278967 |
+| Id           | Nif          |   Morada                                  |   Nome          |     Iban                 |   Email                |  Contacto  |
+| :----------- | :----------- | :---------------------------------------- | :------------- | :------------------------ | :--------------------- | :--------- |
+| 444-4418     | 273498176    |   Rua do Calvário, Casais, nº8 4620-091   |   José Nunes   | PT23245829148218459012348 | jose.nunes@gmail.com   |  914229916 |
+| 444-45555    | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087   |   André Mendes | PT37482928391284783883222 | andre.mendes@gmail.com |  934278967 |
 
 ### ENCOMENDA
 | Id  |    IdLoja     |   IdFornecedor |  DataEntrega  |  DataEncomenda    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio |
