@@ -19,3 +19,7 @@ A PRODUTO foram acrescentados os atributos Sexo, Categoria e Estacao. Codigo foi
 Foi também acrescentada a entidade ENCOMENDA. 
 A FORNECEDOR foram retirados os atributos PrazosDeEntrega e HistoricoDePedidos e foi acrescentado o atributo Id. 
 A associação compra foi transformada numa entidade ligada a cliente e a stock.
+
+---
+[< Previous](rebd01.md) | [^ Main](/../../) | [Next >](rebd03.md)
+:--- | :---: | ---: 
