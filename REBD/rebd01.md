@@ -71,4 +71,9 @@ Gestão Financeira: monitoramento de custos operacionais e orçamentos da loja; 
 
 Comunicação: comunicação interna por mensagem; alertas sobre eventos importantes.
 
+---
+_You can add a footer menu for navigation_ 
+< Previous | [^ Main](/../../) | [Next >](rebd01.md)
+:--- | :---: | ---: 
+
 Suporte Técnico: acesso ao suporte técnico; disponibilidade de manuais de usuário e guias de procedimento. 
