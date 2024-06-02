@@ -57,8 +57,8 @@ STOCK (quantidade)
 ### FORNECEDOR
 | Id           | Nif          |   Morada                                  |   Nome         |     Iban   |   Email                |  Contacto  |
 | :----------- | :----------- | :---------------------------------------- | :------------- | :--------- | :--------------------- | :--------- |
-|              | 273498176    |   Rua do Calvário, Casais, nº8 4620-091   |   José Nunes   |            | jose.nunes@gmail.com   |  914229916 |
-|              | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087   |   André Mendes |            | andre.mendes@gmail.com |  934278967 |
+| 444-4418     | 273498176    |   Rua do Calvário, Casais, nº8 4620-091   |   José Nunes   |            | jose.nunes@gmail.com   |  914229916 |
+| 444-45555    | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087   |   André Mendes |            | andre.mendes@gmail.com |  934278967 |
 
 ### ENCOMENDA
 | Id  |    IdLoja     |   IdFornecedor |  DataEntrega  |  DataEncomenda    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio |
@@ -75,7 +75,9 @@ STOCK (quantidade)
 
 ### TAMANHO
 | Codigo    |  CategoriaPeça     |   UnidadeMedida |
-| :-------- | :----------------- | :-------------- | 
+| :-------- | :----------------- | :-------------- |
+| 2011-333  |                    | XS              |
+| 2011-333  |                    | XL              |
 
 ### COR
 | CódigoHexadecimal  | Nome    |
@@ -87,15 +89,18 @@ STOCK (quantidade)
 ### MATERIAL
 
 ### FUNCIONARIO
-| Nif    | Iban   |    Quantidade      |      Horario    |       Nome   |         Contacto  |   Email        |       Morada      |   Idade |  Id  |
-| :----------- | :------------ | :------------- | :------------ | :---------------- | :---------------- | :----------- | :----------- |
+| Nif          | Iban          | Quantidade|  Horario    | Nome   | Contacto  | Email   | Morada      | Idade |  Id  |
+| :----------- | :------------ | :-------- | :---------- | :----- | :-------- | :------ | :---------- | :---- | :------- |
 
 
 ### Stock       
 | #codigoBarras -> produto  | quantidade |
+| :------------------------ | :--------- |
+|                           | 4          |
 
 ### Tarefas
-|#id -> funcionarios | descricao|
+|#id -> funcionarios | descricao |
+| :----------------- | :-------- |
 
 
 
