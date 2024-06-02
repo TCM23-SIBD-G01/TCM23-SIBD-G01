@@ -12,7 +12,7 @@ A tabela loja
 
 | Nome        | Descrição                    | Domínio     | por Omissão | Automático | Nulo |
 | :---------- | :--------------------------- | :---------- | :---------- | :--------- | :--- |
-| id          | identificador da tabela loja | BIGINT     | -           | Sim        | Não  |
+| id          | identificador da tabela loja | BIGINT      | -           | Sim        | Não  |
 | localizacao | local do estabelecimento     | Varchar     | -           | Não        | Não  |
 | nome        | Nome do registo              | Varchar     | -           | Não        | Não  |
 
@@ -26,10 +26,10 @@ A tabela loja
 
 - **Unicidade** (valores únicos)*:
 
-| Nome   | Coluna(s) |
-| ------ | --------- |
-| id     | id        |
-| nome   | nome      |
+| Nome   | Coluna(s) | Indexar |
+| ------ | --------- | ------- |
+| id     | id        | Sim     |
+| nome   | nome      | Sim     |
 
 ## **Tabela Cliente**
 ### Descrição da tabela Cliente
@@ -53,9 +53,9 @@ A tabela cliente
 
 - **Unicidade** (valores únicos)*:
 
-| Nome    | Coluna(s)  |
-| ------- | ---------- |
-| nif     | nif        |
+| Nome    | Coluna(s)  | Indexar |
+| ------- | ---------- | ------- |
+| nif     | nif        | Sim     |
 
 ## **Tabela Compra**
 ### Descrição da tabela Compra
@@ -82,9 +82,9 @@ A tabela compra
 
 - **Unicidade** (valores únicos)*:
 
-| Nome    | Coluna(s)  |
-| ------- | ---------- |
-| id     | id        |
+| Nome    | Coluna(s)  | Indexar  |
+| ------- | ---------- | ------- |
+| id     | id        |  Sim      |
 
 ## **Tabela Fornecedor**
 ### Descrição da tabela Fornecedor
@@ -112,9 +112,9 @@ A tabela fornecedor
 
 - **Unicidade** (valores únicos)*:
 
-| Nome    | Coluna(s)  |
-| ------- | ---------- |
-| id      | id         |
+| Nome    | Coluna(s)  | Indexar |
+| ------- | ---------- | --------|
+| id      | id         | Sim |
 
 ## **Tabela Encomenda**
 ### Descrição da tabela Encomenda
@@ -143,13 +143,13 @@ A tabela encomenda
 
 - **Unicidade** (valores únicos)*:
 
-| Nome    | Coluna(s)  |
-| ------- | ---------- |
-| id      | id         |
+| Nome    | Coluna(s)  |   Indexar |
+| ------- | ---------- | --------- |
+| id      | id         | Sim       |
 
 - **Chave Estrangeira**
-| Nome             | Coluna(s)     |
-| ---------------- | ------------- |
+| Nome             | Coluna(s)     | Tabela referênciada | Coluna(s) referênciada(s) | Indexar |
+| -----              | -------- | ------------------- | ------------------------- | ------- |
 | idLoja           | idLoja        |
 | idFornecedor     | idFornecedor  |
 
@@ -180,9 +180,9 @@ A tabela produto
 
 - **Unicidade** (valores únicos)*:
 
-| Nome         | Coluna(s)     |
-| ------------ | ------------- |
-| codigoBarras | codigoBarras  |
+| Nome         | Coluna(s)     | Indexar |
+| ------------ | ------------- | ------- |
+| codigoBarras | codigoBarras  |  Sim   |
 
 
 ## **Tabela Tamanho**
@@ -207,9 +207,9 @@ A tabela tamanho
 
 - **Unicidade** (valores únicos)*:
 
-| Nome         | Coluna(s)     |
-| ------------ | ------------- |
-| codigoBarras | codigoBarras  |
+| Nome   | Coluna(s) | Indexar |
+| ------ | --------- | ------ |
+| codigo | codigo    | Sim    |
 
 ## **Tabela Cor**
 ### Descrição da tabela Cor
@@ -228,13 +228,13 @@ A tabela cor
 
 | Coluna(s) |
 | --------- |
-| codigo    |
+| codigoHexadecimal    |
 
 - **Unicidade** (valores únicos)*:
 
-| Nome              | Coluna(s)          |
-| ----------------- | ------------------ |
-| codigoHexadecimal | codigoHexadecimal  |
+| Nome              | Coluna(s)          | Indexar |
+| ----------------- | ------------------ | -------- |
+| codigoHexadecimal | codigoHexadecimal  | Sim  |
 
 
 ## **Tabela Material**
@@ -261,9 +261,9 @@ A tabela material
 
 - **Unicidade** (valores únicos)*:
 
-| Nome | Coluna(s) |
-| ---- | --------- |
-| nome | nome      |
+| Nome | Coluna(s) | Indexar |
+| ---- | --------- | ------- |
+| nome | nome      | Sim     |
 
 ## **Tabela Funcionario**
 ### Descrição da tabela Funcionario
@@ -294,10 +294,11 @@ A tabela funcionario
 
 - **Unicidade** (valores únicos)*:
 
-| Nome    | Coluna(s)  |
-| ------- | ---------- |
-| id      | id         |
-
+| Nome    | Coluna(s)  | Indexar |
+| ------- | ---------- | ------- |
+| id      | id         | Sim     |
+| nif     | nif        | Sim     |
+| iban    | iban       | Sim     |
 
 ## **Tabela Tarefa**
 ### Descrição da tabela Tarefa
@@ -314,9 +315,9 @@ A tabela tarefa
 | idFuncionario | Id associado ao Funcionário | Bigint      | -           | Sim        | Não  |
 
 - **Chave Estrangeira**
-| Nome             | Coluna(s)      |
-| ---------------- | -------------- |
-| idFuncionario    | idFuncionario  |
+| Nome             | Coluna(s)      | Indexar |
+| ---------------- | -------------- | ------- |
+| idFuncionario    | idFuncionario  | Sim     |
 
 ## **Tabela Stock**
 ### Descrição da tabela Stock
