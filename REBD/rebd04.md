@@ -10,15 +10,81 @@ A tabela loja
 
 #### COLUNAS <!-- omit in toc -->
 
-| Nome        | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
-| :---------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
-| id          | identificador da tabela A |       | -           | Sim        | Não  |
-| localizacao | local do estabelecimento  |         | now()       | Não        | Não  |
-| nome        | Nome do registo           |  | -           | Não        | Não  |
+| Nome        | Descrição                    | Domínio     | por Omissão | Automático | Nulo |
+| :---------- | :--------------------------- | :---------- | :---------- | :--------- | :--- |
+| id          | identificador da tabela loja |             | -           | Sim        | Não  |
+| localizacao | local do estabelecimento     |             | -           | Não        | Não  |
+| nome        | Nome do registo              |             | -           | Não        | Não  |
 
+#### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
+- **Chave Primária**: 
 
+| Coluna(s) |
+| --------- |
+| id        |
 
+- **Unicidade** (valores únicos)*:
+
+| Nome   | Coluna(s) |
+| ------ | --------- |
+| id     | id        |
+| nome   | nome      |
+
+## **Tabela Cliente**
+### Descrição da tabela Loja
+A tabela cliente 
+
+#### COLUNAS <!-- omit in toc -->
+
+| Nome        | Descrição                       | Domínio     | por Omissão | Automático | Nulo |
+| :---------- | :------------------------------ | :---------- | :---------- | :--------- | :--- |
+| nif         | identificador da tabela cliente |             | -           | Sim        | Não  |
+| contacto    | número de telemóvel             |             | -           | Não        | Não  |
+| nome        | Nome do registo                 |             | -           | Não        | Não  |
+
+#### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
+
+- **Chave Primária**: 
+
+| Coluna(s)  |
+| ---------- |
+| nif        |
+
+- **Unicidade** (valores únicos)*:
+
+| Nome    | Coluna(s)  |
+| ------- | ---------- |
+| nif     | nif        |
+
+## **Tabela Compra**
+### Descrição da tabela Loja
+A tabela compra 
+
+#### COLUNAS <!-- omit in toc -->
+
+| Nome               | Descrição                       | Domínio     | por Omissão | Automático | Nulo |
+| :----------------- | :------------------------------ | :---------- | :---------- | :--------- | :--- |
+| id                 | identificador da tabela compra  |             | -           | Sim        | Não  |
+| data               | data da realização da compra    |             | -           | Não        | Não  |
+| nomeCliente        | Nome do registo                 |             | -           | Não        | Não  |
+| valorCompra        | Preço total da compra           |             | -           | Não        | Não  |
+| descontosAplicados | Descontos aplicados             |             | -           | Não        | Não  |
+| metodoPagamento    | Método de pagamento utilizado   |             | -           | Não        | Não  |
+
+#### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
+
+- **Chave Primária**: 
+
+| Coluna(s)  |
+| ---------- |
+| nif        |
+
+- **Unicidade** (valores únicos)*:
+
+| Nome    | Coluna(s)  |
+| ------- | ---------- |
+| nif     | nif        |
 
 
 ### Loja        
