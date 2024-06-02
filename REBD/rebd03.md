@@ -90,22 +90,13 @@ STOCK (quantidade)
 | Nif    | Iban   |    Quantidade      |      Horario    |       Nome   |         Contacto  |   Email        |       Morada      |   Idade |  Id  |
 | :----------- | :------------ | :------------- | :------------ | :---------------- | :---------------- | :----------- | :----------- |
 
-### Completa
-| Nif   |   Iban   |   Horario |
-| :--------  | :----------------- | :-------------- |
-
-### TrabalhamEm 
-| Localizacao   |   Nif    |    Iban  |
-| :-------- | :----------------- | :-------------- |
-
-### AtendidoPor
-| Contacto     |    Nif     |      Iban  |
-| :-------- | :----------------- | :-------------- |
 
 ### Stock       
-(#codigo -> produto, quantidade)
+| #codigoBarras -> produto  | quantidade |
+
 ### Tarefas
-(#id -> funcionarios, descricao)
+|#id -> funcionarios | descricao|
+
 
 
 
