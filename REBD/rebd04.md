@@ -3,6 +3,24 @@
 
 **Esquema Relacional** 
 
+## **Relações**
+## **Tabela Loja**
+### Descrição da tabela Loja
+A tabela loja 
+
+#### COLUNAS <!-- omit in toc -->
+
+| Nome        | Descrição                 | Domínio     | por Omissão | Automático | Nulo |
+| :---------- | :------------------------ | :---------- | :---------- | :--------- | :--- |
+| id          | identificador da tabela A |       | -           | Sim        | Não  |
+| localizacao | local do estabelecimento  |         | now()       | Não        | Não  |
+| nome        | Nome do registo           |  | -           | Não        | Não  |
+
+
+
+
+
+
 ### Loja        
 (localizacao, id, nome)
 ### Cliente     
