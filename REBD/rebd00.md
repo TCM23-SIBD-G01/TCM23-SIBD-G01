@@ -12,7 +12,7 @@
 
 _(Don't forget to add the group elements)_
 
-* Ana Beatriz Martins 
+* Ana Beatriz Santos Martins 
 * Rita Carneiro Nunes
 
 ---
