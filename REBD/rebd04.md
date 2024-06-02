@@ -194,7 +194,8 @@ A tabela tamanho
 | Nome          | Descrição                        | Domínio     | por Omissão | Automático | Nulo |
 | :------------ | :------------------------------- | :---------- | :---------- | :--------- | :--- |
 | codigo        | identificador da tabela produto  | BIGINT      | -           | Sim        | Não  |
-| unidadeMedida | unidade de medida                | Integer     | -           | Não        | Não  |
+| unidadeMedida | unidade de medida                | Varchar     | -           | Não        | Não  |
+| categoriaPeça | categoria da peça                | Varchar     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
