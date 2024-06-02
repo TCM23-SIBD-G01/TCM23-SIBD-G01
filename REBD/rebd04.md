@@ -12,9 +12,9 @@ A tabela loja
 
 | Nome        | Descrição                    | Domínio     | por Omissão | Automático | Nulo |
 | :---------- | :--------------------------- | :---------- | :---------- | :--------- | :--- |
-| id          | identificador da tabela loja |             | -           | Sim        | Não  |
-| localizacao | local do estabelecimento     |             | -           | Não        | Não  |
-| nome        | Nome do registo              |             | -           | Não        | Não  |
+| id          | identificador da tabela loja | BIGINT     | -           | Sim        | Não  |
+| localizacao | local do estabelecimento     | Varchar     | -           | Não        | Não  |
+| nome        | Nome do registo              | Varchar     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -39,9 +39,9 @@ A tabela cliente
 
 | Nome        | Descrição                       | Domínio     | por Omissão | Automático | Nulo |
 | :---------- | :------------------------------ | :---------- | :---------- | :--------- | :--- |
-| nif         | identificador da tabela cliente |             | -           | Sim        | Não  |
-| contacto    | número de telemóvel             |             | -           | Não        | Não  |
-| nome        | Nome do registo                 |             | -           | Não        | Não  |
+| nif         | identificador da tabela cliente | Integer     | -           | Sim        | Não  |
+| contacto    | número de telemóvel             | Integer     | -           | Não        | Não  |
+| nome        | Nome do registo                 | Varchar     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -65,12 +65,12 @@ A tabela compra
 
 | Nome               | Descrição                       | Domínio     | por Omissão | Automático | Nulo |
 | :----------------- | :------------------------------ | :---------- | :---------- | :--------- | :--- |
-| id                 | identificador da tabela compra  | Integer     | -           | Sim        | Não  |
+| id                 | identificador da tabela compra  | BIGINT     | -           | Sim        | Não  |
 | data               | data da realização da compra    | Date        | -           | Sim        | Não  |
 | nomeCliente        | Nome do registo                 | Varchar     | -           | Não        | Não  |
 | valorCompra        | Preço total da compra           | Decimal     | -           | Sim        | Não  |
 | descontosAplicados | Descontos aplicados             | Decimal     | -           | Não        | Não  |
-| metodoPagamento    | Método de pagamento utilizado   |             | -           | Não        | Não  |
+| metodoPagamento    | Método de pagamento utilizado   | Varchar     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -94,7 +94,7 @@ A tabela fornecedor
 
 | Nome     | Descrição                           | Domínio     | por Omissão | Automático | Nulo |
 | :------- | :---------------------------------- | :---------- | :---------- | :--------- | :--- |
-| id       | identificador da tabela fornecedor  | Integer     | -           | Sim        | Não  |
+| id       | identificador da tabela fornecedor  | BIGINT     | -           | Sim        | Não  |
 | nome     | nome do fornecedor                  | Varchar     | -           | Não        | Não  |
 | morada   | localização do fornecedor           | Varchar     | -           | Não        | Não  |
 | iban     | iban do fornecedor                  | Integer     | -           | Não        | Não  |
@@ -114,7 +114,7 @@ A tabela fornecedor
 
 | Nome    | Coluna(s)  |
 | ------- | ---------- |
-| id     | id        |
+| id      | id         |
 
 ## **Tabela Encomenda**
 ### Descrição da tabela Encomenda
@@ -122,16 +122,16 @@ A tabela encomenda
 
 #### COLUNAS <!-- omit in toc -->
 
-| Nome           | Descrição                           | Domínio     | por Omissão | Automático | Nulo |
-| :------------- | :---------------------------------- | :---------- | :---------- | :--------- | :--- |
-| id             | identificador da tabela encomenda   | Integer     | -           | Sim        | Não  |
-| idLoja         | id da Loja                          | Integer     | -           | Sim        | Não  |
-| dataPedido     | data do pedido                      | Date        | -           | Sim        | Não  |
-| valorEncomenda | valor da encomenda                  |             | -           | Sim        | Não  |
-| dataEntrega    | data de entrega                     | Date        | -           | Sim        | Não  |
-| metodoEnvio    | método de envio                     |             | -           | Não        | Não  |
-| idFornecedor   | id do Fornecedor                    | Integer     | -           | Não        | Não  |
-| quantidade     | quantidade                          |             | -           | Não        | Não  |
+| Nome           | Descrição                           | Domínio    | por Omissão | Automático | Nulo |
+| :------------- | :---------------------------------- | :--------- | :---------- | :--------- | :--- |
+| id             | identificador da tabela encomenda   | BIGINT     | -           | Sim        | Não  |
+| idLoja         | id da Loja                          | BIGINT     | -           | Sim        | Não  |
+| dataPedido     | data do pedido                      | Date       | -           | Sim        | Não  |
+| valorEncomenda | valor da encomenda                  | Decimal    | -           | Sim        | Não  |
+| dataEntrega    | data de entrega                     | Date       | -           | Sim        | Não  |
+| metodoEnvio    | método de envio                     | Varchar    | -           | Não        | Não  |
+| idFornecedor   | id do Fornecedor                    | BIGINT     | -           | Não        | Não  |
+| quantidade     | quantidade                          | BIGINT     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -163,12 +163,12 @@ A tabela produto
 | Nome         | Descrição                                  | Domínio     | por Omissão | Automático | Nulo |
 | :----------- | :----------------------------------------- | :---------- | :---------- | :--------- | :--- |
 | codigoBarras | identificador da tabela produto            | Integer     | -           | Sim        | Não  |
-| sexo         | identidade do cliente associada ao produto |             | -           | Não        | Não  |
-| estacao      | estação do ano associada ao produto        |             | -           | Não        | Não  |
-| categoria    | categoria                                  |             | -           | Não        | Não  |
-| nome         | nome de produto                            |             | -           | Não        | Não  |
+| sexo         | identidade do cliente associada ao produto | Varchar     | -           | Não        | Não  |
+| estacao      | estação do ano associada ao produto        | Varchar     | -           | Não        | Não  |
+| categoria    | categoria                                  | Varchar     | -           | Não        | Não  |
+| nome         | nome de produto                            | Varchar     | -           | Não        | Não  |
 | preco        | valor em €                                 | Decimal     | -           | Sim        | Não  |
-| quantidade   | quantidade                                 |             | -           | Não        | Não  |
+| quantidade   | quantidade                                 | BIGINT      | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -184,11 +184,6 @@ A tabela produto
 | ------------ | ------------- |
 | codigoBarras | codigoBarras  |
 
-- **Chave Estrangeira**
-| Nome             | Coluna(s)     |
-| ---------------- | ------------- |
-|            |         |
-|      |   |
 
 ## **Tabela Tamanho**
 ### Descrição da tabela Tamanho
@@ -198,8 +193,8 @@ A tabela tamanho
 
 | Nome          | Descrição                        | Domínio     | por Omissão | Automático | Nulo |
 | :------------ | :------------------------------- | :---------- | :---------- | :--------- | :--- |
-| codigo        | identificador da tabela produto  |             | -           | Sim        | Não  |
-| unidadeMedida | unidade de medida                |             | -           | Não        | Não  |
+| codigo        | identificador da tabela produto  | BIGINT      | -           | Sim        | Não  |
+| unidadeMedida | unidade de medida                | Integer     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -223,8 +218,8 @@ A tabela cor
 
 | Nome              | Descrição                    | Domínio     | por Omissão | Automático | Nulo |
 | :---------------- | :--------------------------- | :---------- | :---------- | :--------- | :--- |
-| codigoHexadecimal | identificador da tabela cor  |             | -           | Sim        | Não  |
-| nome              | nome da cor                  |             | -           | Não        | Não  |
+| codigoHexadecimal | identificador da tabela cor  | Integer     | -           | Sim        | Não  |
+| nome              | nome da cor                  | Varchar     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -249,10 +244,10 @@ A tabela material
 
 | Nome               | Descrição                   | Domínio     | por Omissão | Automático | Nulo |
 | :----------------- | :-------------------------- | :---------- | :---------- | :--------- | :--- |
-| nome               | nome do material            |             | -           | Não        | Não  |
-| composicao         | composicao do material      |             | -           | Não        | Não  |
-| propriedades       | propriedades do material    |             | -           | Não        | Não  |
-| instrucoesCuidado  | instruções de cuidado a ter |             | -           | Não        | Não  |
+| nome               | nome do material            | Varchar     | -           | Não        | Não  |
+| composicao         | composicao do material      | Varchar     | -           | Não        | Não  |
+| propriedades       | propriedades do material    | Varchar     | -           | Não        | Não  |
+| instrucoesCuidado  | instruções de cuidado a ter | Varchar     | -           | Não        | Não  |
 
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
@@ -279,14 +274,14 @@ A tabela funcionario
 | :--------- | :---------------------------------- | :---------- | :---------- | :--------- | :--- |
 | id         | identificador da tabela funcionario | Integer     | -           | Sim        | Não  |
 | nome       | nome completo                       | Varchar     | -           | Não        | Não  |
-| quantidade | número de funcionários              |             | -           | Não        | Não  |
-| contacto   | número telemóvel                    |             | -           | Não        | Não  |
+| quantidade | número de funcionários              | Integer     | -           | Não        | Não  |
+| contacto   | número telemóvel                    | Integer     | -           | Não        | Não  |
 | nif        | número de identificação fiscal      | Integer     | -           | Não        | Não  |
 | morada     | morada                              | Varchar     | -           | Não        | Não  |
 | iban       | iban                                | Integer     | -           | Não        | Não  |
 | email      | email eletrónico                    | Varchar     | -           | Não        | Não  |
-| horario    | horário de trabalho                 |             | -           | Não        | Não  |
-| idade      | idade                               |             | -           | Não        | Não  |
+| horario    | horário de trabalho                 | DateTime    | -           | Não        | Não  |
+| idade      | idade                               | Integer     | -           | Não        | Não  |
 
 #### RESTRIÇÕES DE INTEGRIDADE <!-- omit in toc -->
 
@@ -302,11 +297,6 @@ A tabela funcionario
 | ------- | ---------- |
 | id      | id         |
 
-- **Chave Estrangeira**
-| Nome             | Coluna(s)     |
-| ---------------- | ------------- |
-|            |         |
-|      |   |
 
 ## **Tabela Tarefa**
 ### Descrição da tabela Tarefa
@@ -316,11 +306,11 @@ A tabela tarefa
 
 | Nome          | Descrição                   | Domínio     | por Omissão | Automático | Nulo |
 | :------------ | :-------------------------- | :---------- | :---------- | :--------- | :--- |
-| categoria     | categoria da tarefa         |             | -           | Não        | Não  |
-| horario       | horario                     |             | -           | Não        | Não  |
-| data          | data                        |             | -           | Não        | Não  |
-| status        | status                      |             | -           | Não        | Não  |
-| idFuncionario | Id associado ao Funcionário |             | -           | Sim        | Não  |
+| categoria     | categoria da tarefa         | Varchar     | -           | Não        | Não  |
+| horario       | horario                     | Time        | -           | Não        | Não  |
+| data          | data                        | Date        | -           | Não        | Não  |
+| status        | status                      | Varchar     | -           | Não        | Não  |
+| idFuncionario | Id associado ao Funcionário | Bigint      | -           | Sim        | Não  |
 
 - **Chave Estrangeira**
 | Nome             | Coluna(s)      |
@@ -335,6 +325,6 @@ A tabela stock
 
 | Nome       | Descrição           | Domínio     | por Omissão | Automático | Nulo |
 | :--------- | :------------------ | :---------- | :---------- | :--------- | :--- |
-| quantidade | quantidade de stock |             | -           | Não        | Não  |
+| quantidade | quantidade de stock | Bigint      | -           | Não        | Não  |
 
 
