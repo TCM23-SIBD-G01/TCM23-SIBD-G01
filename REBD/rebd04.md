@@ -1,4 +1,4 @@
-# C4
+# C4 : Esquema Relacional
 ## 01 Beatriz Martins a043545, Rita Nunes a043237 
 
 **Esquema Relacional** 
