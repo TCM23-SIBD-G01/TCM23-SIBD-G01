@@ -6,7 +6,7 @@
 ## **Relações**
 ## **Tabela Loja**
 ### Descrição da tabela Loja
-A tabela loja 
+A tabela loja apresenta o nome, localização e id de cada loja existente.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -33,7 +33,7 @@ A tabela loja
 
 ## **Tabela Cliente**
 ### Descrição da tabela Cliente
-A tabela cliente 
+A tabela cliente apresenta informações dos clientes cadastrados no sistema.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -59,7 +59,7 @@ A tabela cliente
 
 ## **Tabela Compra**
 ### Descrição da tabela Compra
-A tabela compra 
+A tabela compra apresenta todas as informações sobre as compras efetuadas na loja
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -88,7 +88,7 @@ A tabela compra
 
 ## **Tabela Fornecedor**
 ### Descrição da tabela Fornecedor
-A tabela fornecedor 
+A tabela fornecedor armazena informações sobre os fornecedores de produtos.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -118,7 +118,7 @@ A tabela fornecedor
 
 ## **Tabela Encomenda**
 ### Descrição da tabela Encomenda
-A tabela encomenda 
+A tabela encomenda apresenta todas as informações sobre as encomendas efetuadas pelo fornecedor de produtos para a loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -148,15 +148,15 @@ A tabela encomenda
 | id      | id         | Sim       |
 
 - **Chave Estrangeira**
-| Nome             | Coluna(s)     | Tabela referênciada | Coluna(s) referênciada(s) | Indexar |
-| -----              | -------- | ------------------- | ------------------------- | ------- |
+| Nome             | Coluna(s)     |
+| -----            | -------- |
 | idLoja           | idLoja        |
 | idFornecedor     | idFornecedor  |
 
 
 ## **Tabela Produto**
 ### Descrição da tabela Produto
-A tabela produto 
+A tabela produto apresenta todas as informações sobre os produtos existentes na loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -187,7 +187,7 @@ A tabela produto
 
 ## **Tabela Tamanho**
 ### Descrição da tabela Tamanho
-A tabela tamanho 
+A tabela tamanho apresenta todas as informações sobre os tamanhos dos produtos existentes na loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -213,7 +213,7 @@ A tabela tamanho
 
 ## **Tabela Cor**
 ### Descrição da tabela Cor
-A tabela cor 
+A tabela cor apresenta todas as informações sobre as cores dos produtos existentes na loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -239,7 +239,7 @@ A tabela cor
 
 ## **Tabela Material**
 ### Descrição da tabela Material
-A tabela material 
+A tabela material apresenta todas as informações sobre os materiais dos produtos existentes na loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -267,7 +267,7 @@ A tabela material
 
 ## **Tabela Funcionario**
 ### Descrição da tabela Funcionario
-A tabela funcionario 
+A tabela funcionario apresenta todas as informações sobre os funcionários que trabalham na loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -302,7 +302,7 @@ A tabela funcionario
 
 ## **Tabela Tarefa**
 ### Descrição da tabela Tarefa
-A tabela tarefa 
+A tabela tarefa apresenta todas as informações sobre as tarefas dos funcionários que trabalham na loja.
 
 #### COLUNAS <!-- omit in toc -->
 
@@ -321,7 +321,7 @@ A tabela tarefa
 
 ## **Tabela Stock**
 ### Descrição da tabela Stock
-A tabela stock 
+A tabela stock apresenta todas as informações sobre o stock dos produtos.
 
 #### COLUNAS <!-- omit in toc -->
 
