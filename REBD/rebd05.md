@@ -1,4 +1,7 @@
 # C3 : SQL
+## 01 Beatriz Martins a043545, Rita Nunes a043237 
+
+### DDL
 
 ```sql
 USE `test`;
@@ -129,7 +132,7 @@ CREATE TABLE IF NOT EXISTS `Fornecedor` (
 );
 ```
 
-## DDL
+### DML
 
 
 
