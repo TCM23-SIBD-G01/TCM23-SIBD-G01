@@ -1,7 +1,6 @@
 # C3 : SQL
 
 ```sql
-
 USE `test`;
 
 DROP TABLE IF EXISTS `Loja`;
@@ -18,115 +17,115 @@ DROP TABLE IF EXISTS `Encomenda`;
 DROP TABLE IF EXISTS `Fornecedor`;
 
 CREATE TABLE IF NOT EXISTS `Loja` (
-	`Id`,
-	`Nome`, 
-    `Localizacao`,
+	`Id` char(5) NOT NULL,
+	`Nome` char(3) NOT NULL, 
+    `Localizacao` varchar(100) UNIQUE NOT NULL,
     PRIMARY KEY (`Id`)
+);
 
 CREATE TABLE IF NOT EXISTS `Funcionario` (
-	`Id`,
-    `Nome`,
-    `Quantidade`,
-    `Contacto`, 
-    `Nif`,
-    `Morada`,
-    `Iban`,
-    `Email`,
-    `Horario`,
-    `Idade`,
-    PRIMARY KEY (`Id`),
+	`Id` char(6) NOT NULL,
+    `Nome` varchar(70) NOT NULL,
+    `Quantidade` int(4) NOT NULL,
+    `Contacto` int(9) UNIQUE NOT NULL, 
+    `Nif` int(9) UNIQUE NOT NULL,
+    `Morada` varchar(100) NOT NULL,
+    `Iban` char(25) UNIQUE NOT NULL,
+    `Email` varchar(100) UNIQUE NOT NULL,
+    `Horario` char(5),
+    `Idade` int(3) NOT NULL,
+    PRIMARY KEY (`Id`)
 );
 
 CREATE TABLE IF NOT EXISTS `Tarefa`(
-	`IdFuncionario`,
-    `Horario`,
-    `Categoria`,
-    `Data`,
-    `Status`,
-    `Descricao`,
+	`IdFuncionario` char(6) NOT NULL,
+    `Horario` char(5) NOT NULL,
+    `Categoria` enum('limpeza', 'restock', 'atendimento ao cliente' ) NOT NULL,
+    `Data` char(11)  NOT NULL,
+    `Status` enum('Por fazer', 'Em progresso', 'Acabado') NOT NULL,
+    `Descricao` text,
     PRIMARY KEY (`IdFuncionario`),
-    FOREIGN KEY (`IdFuncionario`) REFERENCES Funcionario(Id),
+    FOREIGN KEY (`IdFuncionario`) REFERENCES Funcionario(`Id`)
 );
 
 CREATE TABLE IF NOT EXISTS `Cliente` (
-	`Nif`,
-    `Nome`,
-    `Contacto`,
-    PRIMARY KEY (`Nif`),
+	`Nif` int(9) NOT NULL,
+    `Nome` varchar(70) NOT NULL,
+    `Contacto` int(9) UNIQUE NOT NULL,
+    PRIMARY KEY (`Nif`)
 );
 
 CREATE TABLE IF NOT EXISTS `Compra` (
-	`Id`,
-    `Data`,
-    `NomeCliente`,
-    `ValorCompra`,
-    `DescontosAplicados`,
-    `MetodoPagamento`,
-    PRIMARY KEY (`Id`),
+	`Id` char(7) NOT NULL,
+    `Data` char(11)  NOT NULL,
+    `NomeCliente` varchar(70) NOT NULL,
+    `ValorCompra` decimal(6, 2) NOT NULL,
+    `DescontosAplicados` decimal(3, 2),
+    `MetodoPagamento` enum('MBWay', 'cartão de crédito', 'cartão de débito', 'dinheiro') NOT NULL,
+    PRIMARY KEY (`Id`)
 );
 
 CREATE TABLE IF NOT EXISTS `Stock` (
-	`CodigoBarras`,
-    `Quantidade`,
+	`CodigoBarras` int(13) NOT NULL,
+    `Quantidade` int(4) NOT NULL,
     PRIMARY KEY (`CodigoBarras`),
-    FOREIGN KEY (`CodigoBarras`) REFERENCES Produto(CodigoBarras),
+    FOREIGN KEY (`CodigoBarras`) REFERENCES Produto(`CodigoBarras`)
 );
 
 CREATE TABLE IF NOT EXISTS `Produto` (
-	`CodigoBarras`,
-    `Sexo`,
-    `Estacao`,
-    `Nome`,
-    `Preco`,
-    `Quantidade`,
-    PRIMARY KEY (`CodigoBarras`),
+	`CodigoBarras` int(13) NOT NULL,
+    `Sexo` enum ('Mulher', 'Homem', 'Unisex') NOT NULL,
+    `Estacao` enum ('Primavera', 'Verão', 'Outono', 'Inverno') NOT NULL,
+    `Nome` varchar(30) NOT NULL,
+    `Preco` decimal(3, 2) NOT NULL,
+    `Quantidade` int(4) NOT NULL,
+    PRIMARY KEY (`CodigoBarras`)
 );
 
 CREATE TABLE IF NOT EXISTS `Material` (
-	`Nome`,
-    `Composicao`,
-    `Instrucoes`,
-    `Propriedades`,
-    PRIMARY KEY (`Nome`),
+	`Nome` varchar(20) NOT NULL,
+    `Composicao` text NOT NULL,
+    `Instrucoes` text NOT NULL,
+    `Propriedades` text NOT NULL,
+    PRIMARY KEY (`Nome`)
 );
 
 CREATE TABLE IF NOT EXISTS `Tamanho`(
-	`Codigo`,
-    `UnidadeMedida`,
-    `CategoriaPeca`,
-    PRIMARY KEY (`Codigo`),
+	`Codigo` char(3) NOT NULL,
+    `UnidadeMedida` varchar(20) NOT NULL,
+    `CategoriaPeca` varchar(20) NOT NULL,
+    PRIMARY KEY (`Codigo`)
 );
 
 CREATE TABLE IF NOT EXISTS `Cor` (
-	`CodigoHexadecimal`,
-    `Nome`,
-    PRIMARY KEY (`CodigoHexadecimal`),
-);
+	`CodigoHexadecimal` char(7) NOT NULL,
+    `Nome` varchar(20) NOT NULL,
+    PRIMARY KEY (`CodigoHexadecimal`)
+    );
 
 CREATE TABLE IF NOT EXISTS `Encomenda` (
-	`Id`,
-    `DataPedido`,
-    `DataEntrega`,
-    `IdLoja`,
-    `ValorEncomenda`,
-    `MetodoEnvio`,
-    `IdFornecedor`,
-    `Quantidade`,
+	`Id` char(7) NOT NULL,
+    `DataPedido` char(11) NOT NULL,
+    `DataEntrega` char(11)  NOT NULL,
+    `IdLoja` char(5) UNIQUE NOT NULL,
+    `ValorEncomenda` decimal(6, 2) NOT NULL,
+    `MetodoEnvio` enum('correios normal', 'transportadora normal', 'correios express', 'transportadora express') NOT NULL,
+    `IdFornecedor` char(6) UNIQUE NOT NULL,
+    `Quantidade` int(4) NOT NULL,
     PRIMARY KEY (`Id`),
-    FOREIGN KEY (`IdLoja`) REFERENCES Loja(Id),
-    FOREIGN KEY (`IdFornecedor`) REFERENCES Fornecedor(Id),
+    FOREIGN KEY (`IdLoja`) REFERENCES Loja(`Id`),
+    FOREIGN KEY (`IdFornecedor`) REFERENCES Fornecedor(`Id`)
 );
 
 CREATE TABLE IF NOT EXISTS `Fornecedor` (
-	`Id`,
-    `Nome`,
-    `Contacto`,
-    `Email`,
-    `Iban`,
-    `Morada`,
-    `Nif`,
-    PRIMARY KEY (`Id`);
-);
+	`Id` char(6) NOT NULL,
+    `Nome` varchar(70) NOT NULL,
+    `Contacto` int(9) UNIQUE NOT NULL,
+    `Email` varchar(100) UNIQUE NOT NULL,
+    `Iban` char(25) UNIQUE NOT NULL,
+    `Morada` varchar(100) UNIQUE NOT NULL,
+    `Nif` int(9) UNIQUE NOT NULL,
+    PRIMARY KEY (`Id`)
 );
 ```
 
