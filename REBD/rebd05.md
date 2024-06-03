@@ -1,5 +1,7 @@
 # C3 : SQL
 
+```sql
+
 USE `test`;
 
 DROP TABLE IF EXISTS `Loja`;
@@ -21,6 +23,7 @@ CREATE TABLE IF NOT EXISTS `Loja` (
     `Localizacao`,
     PRIMARY KEY (`Id`)
 );
+```
 
 ## DDL
 
