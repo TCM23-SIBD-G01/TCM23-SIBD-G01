@@ -134,7 +134,186 @@ CREATE TABLE IF NOT EXISTS `Fornecedor` (
 
 ### DML
 
+```sql
+-- *Informações sobre as lojas*
+SELECT 
+    *
+FROM
+    Loja
+ 
+-- *Informações sobre os funcionários*
+SELECT 
+    *
+FROM
+    Funcionario;
+ 
+-- *Informações sobre os clientes*
+SELECT 
+    *
+FROM
+    Cliente;
+    
+-- *Informações sobre as encomendas*
+SELECT 
+    *
+FROM
+    Encomenda;
+    
+-- *Informações sobre os fornecedores*
+SELECT 
+    *
+FROM
+    Fornecedor;
+    
+-- *Informações sobre as compras*
+SELECT 
+    *
+FROM
+    Compra;
 
+-- *Informações sobre o stock*
+SELECT 
+    *
+FROM
+    Stock;
+    
+-- *Informações sobre os produtos*
+SELECT 
+    *
+FROM
+    Produto;
+
+-- *Produtos disponíveis em cada loja*
+SELECT DISTINCT
+    L.Nome AS NomeLoja,
+    L.Localizacao AS LocalizacaoLoja,
+    P.Nome AS NomeProduto,
+    P.Preco AS PrecoProduto,
+    P.Quantidade AS QuantidadeProduto
+FROM
+    Loja,
+    Produto
+ORDER BY L.Nome , P.Nome;
+
+-- *Atualizações do nível de stock*
+UPDATE 
+	Loja,
+    Produto 
+SET 
+    Quantidade = nova_quantidade
+WHERE
+    IdLoja = id_loja
+        AND CodigoBarras = codigo_barras;
+        
+-- *Encomendas ao fornecedor*
+INSERT INTO 
+	Encomenda (Id, DataPedido, DataEntrega, IdLoja, ValorEncomenda, MetodoEnvio, IdFornecedor, Quantidade)
+VALUES
+	(id_encomenda, data_pedido, data_entrega, id_loja, valor_encomenda, metodo_envio, id_fornecedor, quantidade_produto);
+
+-- *Entrada de novos produtos*
+INSERT INTO 
+	Produto (CodigoBarras, Sexo, Estacao, Nome, Preco, Quantidade) 
+VALUES 
+	(codigo_barras, sexo_produto, estação_produto, nome_produto, preco_produto, quantidade_produto);
+
+-- *Registo de vendas*
+INSERT INTO 
+	Compra (Id, Data, NomeCliente, ValorCompra, DescontosAplicados, MetodoPagamento)
+VALUES 
+	(id_compra, data_compra, nome_cliente, valor_compra, descontos_aplicados, metodo_pagamento);
+    
+-- *Registo de novos clientes*
+INSERT INTO
+	Cliente (Nif, Nome, Contacto)
+VALUES
+	(nif_novo_cliente, nome_novo_cliente, contacto_novo_cliente);
+
+-- *Registo de novos funcionários*
+INSERT INTO
+	Funcionario (Id, Nome, Contacto, Nif, Morada, Iban, Email, Idade)
+VALUES
+	(id_novo_funcionario, nome_novo_funcionario, contacto_novo_funcionario, nif_novo_funcionario, morada_novo_funcionario, iban_novo_funcionario, email_novo_funcionario, idade_novo_funcionario);
+
+-- *Histórico de compras de cada cliente*
+SELECT 
+    Id
+FROM
+    Compra
+WHERE
+    NomeCliente = (SELECT 
+            Nome
+        FROM
+            Cliente);
+
+-- *Histórico de encomendas de cada loja a cada fornecedor*
+SELECT DISTINCT
+    Id
+FROM
+    Encomenda
+WHERE
+    IdLoja = (SELECT 
+            Id
+        FROM
+            Loja)
+        OR IdFornecedor = (SELECT 
+            Id
+        FROM
+            Fornecedor);
+
+-- *Visualização de horários de trabalho dos funcionarios*
+SELECT 
+    Horario
+FROM 
+	Funcionario
+WHERE
+	Id = id_funcionario;
+
+-- *Atualização de horários de trabalho dos funcionários*
+UPDATE 
+	Funcionario
+SET
+	Horario = novo_horario
+WHERE 
+	Id = id_funcionario_com_novo_horario;
+    
+-- *Visualização de tarefas atribuídas aos funcionários*
+SELECT DISTINCT
+	*
+FROM 
+	Tarefa
+WHERE
+	IdFuncionario = id_funcionario_com_tarefa;
+
+-- *Atualização do status de cada tarefa*
+UPDATE
+	Tarefa
+SET
+	Status = novo_status
+WHERE
+	IdFuncionario = id_funcionario_responsavel;
+    
+-- *Atribuição de tarefas*
+UPDATE 
+	Tarefa
+SET
+	IdFuncionario = id_funcionario,
+	Horario = horario_tarefa,
+    Categoria = categoria_tarefa,
+    Data = data_atribuicao_tarefa,
+    Status = status_tarefa,
+    Descricao = descricao_tarefa
+WHERE
+	IdFuncionario = id_funcionario_responsavel;
+    
+-- *Aplicação de descontos*
+UPDATE
+	Compra
+SET
+	ValorCompra = ValorCompra - DescontosAplicados
+WHERE
+	DescontosAplicados > 0;
+```
 
 ---
 [< Previous](rebd04.md) | [^ Main](/../../) | Next >
