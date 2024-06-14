@@ -38,5 +38,5 @@ _Please add a hyperlink per Report.
 :[REBD](doc/rebd/rebd00.md)
 
 ## Team
-* Ana Beatriz Martins Santo
+* Ana Beatriz Santos Martins
 * Rita Carneiro Nunes
