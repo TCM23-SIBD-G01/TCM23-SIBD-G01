@@ -26,8 +26,8 @@ _Indicate the technologies you have used in this assignment. Please provide link
 
 ## Reports
 
-:[REI](doc/rei/rei00.md)
-:[REBD](doc/REBD/rebd00.md)
+:[REI](REI/rei01.md)
+:[REBD](REBD/rebd00.md)
 
 
 ## Team
