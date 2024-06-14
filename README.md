@@ -12,14 +12,12 @@ _Please help reader navigate around describing how the repository is organized b
 * **Source code** is in the [src folder](src/).
 * Reports are in [doc folder](doc/).
 
-## Gallery
+## Galeria
 
-_You may provide a galery of the final result, with small images_
 A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
 
-## Technologies
+## Tecnologias
 
-_Indicate the technologies you have used in this assignment. Please provide links for the user to read more about those technologies._
 * Docker
 * NodeJS
 * MySQL
@@ -30,6 +28,6 @@ _Indicate the technologies you have used in this assignment. Please provide link
 :[REBD](REBD/rebd00.md)
 
 
-## Team
+## Equipa
 * Ana Beatriz Santos Martins
 * Rita Carneiro Nunes
