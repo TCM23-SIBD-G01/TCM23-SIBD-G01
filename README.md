@@ -1,12 +1,11 @@
 # TCM23-SIBD-G01
 
-Repository to host the project developed for 'some class', a fisrt year subject at SOMESCHOOL. Developed by Group ALPHA : [@Ritanunes7](https://github.com/Ritanunes7), [@Beatriz043545](https://github.com/Beatriz043545).
+Repositório para alojar o projeto desenvolvido para 'Sistema de Informação e Base de Dados', unidade curricular do segundo ano da Universidade da Maia. Desenvolvido pelo grupo : [@Ritanunes7](https://github.com/Ritanunes7), [@Beatriz043545](https://github.com/Beatriz043545).
 
 
-## Short theme description
+## Loja de rouoa B&R
 
-An example report using markdown on Github. This documentation is writen using [Markdown](https://www.markdownguide.org/). Here is a [link to the basic syntax](https://www.markdownguide.org/basic-syntax), but an [extended syntax](https://www.markdownguide.org/extended-syntax/) is also available. If you're starting with Markdown, you may want to try a [Markdown Tutorial](https://www.markdowntutorial.com/) and read the [getting started](https://www.markdownguide.org/getting-started/) section.
-
+O objetivo deste trabalho é desenvolver uma base de dados de uma loja de roupa "B&R". 
 ## Repository organization
 
 _Please help reader navigate around describing how the repository is organized by providing links_
