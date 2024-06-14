@@ -3,7 +3,7 @@
 Repositório para alojar o projeto desenvolvido para 'Sistema de Informação e Base de Dados', unidade curricular do segundo ano da Universidade da Maia. Desenvolvido pelo grupo : [@Ritanunes7](https://github.com/Ritanunes7), [@Beatriz043545](https://github.com/Beatriz043545).
 
 
-## Loja de rouoa B&R
+## Loja de roupa B&R
 
 O objetivo deste trabalho é desenvolver uma base de dados de uma loja de roupa "B&R". 
 ## Repository organization
