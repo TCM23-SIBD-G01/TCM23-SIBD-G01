@@ -24,15 +24,8 @@ _Indicate the technologies you have used in this assignment. Please provide link
 * Docker
 * NodeJS
 * MySQL
-* _Any other?_
-
-### Frameworks and Libraries
-
-_Did you use any aditional libraries? Describe them here._
-* Loopback 4
 
 ## Reports
-_Please add a hyperlink per Report.
 
 :[REI](doc/rei/rei00.md)
 :[REBD](doc/rebd/rebd00.md)
