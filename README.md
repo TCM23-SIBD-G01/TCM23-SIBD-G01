@@ -27,7 +27,7 @@ _Indicate the technologies you have used in this assignment. Please provide link
 ## Reports
 
 :[REI](doc/rei/rei00.md)
-:[REBD](doc/rebd/rebd00.md)
+:[REBD](doc/REBD/rebd00.md)
 
 ## Team
 * Ana Beatriz Santos Martins
