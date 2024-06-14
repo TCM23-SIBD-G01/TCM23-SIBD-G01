@@ -27,7 +27,7 @@ _Indicate the technologies you have used in this assignment. Please provide link
 ## Reports
 
 :[REI](doc/rei/rei00.md)
-:[REBD](doc/REBD/rebd00.md)
+[:[REBD](doc/REBD/rebd00.md)](https://github.com/TCM23-SIBD-G01/TCM23-SIBD-G01/tree/8d8ec59014fcab5bff90a344a56d094305f898ad/REBD)
 
 ## Team
 * Ana Beatriz Santos Martins
