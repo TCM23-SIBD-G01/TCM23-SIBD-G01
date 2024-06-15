@@ -36,9 +36,9 @@ STOCK (quantidade)
 | :--------------- | :--------- | :----|
 | Algarve          | 042429899  | B&R  |
 | Lisboa           | 042429900  | B&R  |
-| Castelo Branco   | 042429900  | B&R  |
-| Aveiro           | 042429901  | B&R  |
-| Porto            | 042429902  | B&R  |
+| Castelo Branco   | 042429901  | B&R  |
+| Aveiro           | 042429902  | B&R  |
+| Porto            | 042429903  | B&R  |
 
 ### COMPRA
 | Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
