@@ -60,9 +60,9 @@ STOCK (quantidade)
 | 444-45555    | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087   |   André Mendes | PT37482928391284783883222 | andre.mendes@gmail.com |  934278967 |
 
 ### ENCOMENDA
-| Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataEncomenda |  ValorEncomenda   |  Quantidade  |  MetodoEnvio |
-| :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :----------- |
-|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200€              |  30          | Correio      |
+| Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio   |
+| :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :------------- |
+|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200€              |  30          | Correio Normal |
 
 ### PRODUTO
 | CodigoBarras |  Quantidade |   Preco   |        Nome          |   Sexo      |   Estacao   |
