@@ -62,20 +62,20 @@ STOCK (quantidade)
 ### ENCOMENDA
 | Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio   |
 | :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :------------- |
-|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€              |  30          | Correio Normal |
+|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€           |  30          | Correio Normal |
 
 ### PRODUTO
-| CodigoBarras |  Quantidade |   Preco   |        Nome          |   Sexo      |   Estacao   |
-| :----------- | :---------- | :-------- | :------------------- | :---------- | :---------- |
-| 2813-888     |    1        | 16€* 1    | Calções Largos       |  Masculinho |  Primavera  |
-| 2819-989     |    5        | 25€* 5    | Vestido Floral       |  Feminino   |  Verão      |
-| 2819-989     |    10       | 20€* 10   | Calças Boca de Sino  |  Feminino   |  Primavera  |
+| CodigoBarras |  Quantidade |   Preco  |        Nome          |   Sexo      |   Estacao   |
+| :----------- | :---------- | :------- | :------------------- | :---------- | :---------- |
+| 2813-888     | 1           | 16.20€   | Calções Largos       |  Masculinho |  Primavera  |
+| 2819-989     | 5           | 25.05€   | Vestido Floral       |  Feminino   |  Verão      |
+| 2819-989     | 10          | 20.10€   | Calças Boca de Sino  |  Feminino   |  Primavera  |
 
 ### TAMANHO
 | Codigo    |  CategoriaPeça     |   UnidadeMedida |
 | :-------- | :----------------- | :-------------- |
-| 2011-333  |                    | XS              |
-| 2011-333  |                    | XL              |
+| XS        | T'shirt            | EUR             |
+| XL        | Camisa             | EUR             |
 
 ### COR
 | CódigoHexadecimal  | Nome    |
@@ -86,11 +86,12 @@ STOCK (quantidade)
 ### MATERIAL
 | Nome | Composicao   | Propriedades | InstruçõesCuidados           |
 | :--- | :----------- | :----------- | :--------------------------- |
-|Malha | 100% algodão | flexível     | evitar usar máquina de secar |
+|Malha | 100% algodão | Flexível     | Evitar usar máquina de secar |
 
 ### FUNCIONARIO
-| Nif          | Iban          | Quantidade|  Horario    | Nome   | Contacto  | Email   | Morada      | Idade |  Id  |
+| Nif          | Iban          | Quantidade|  Horario    | Nome   | Contacto  | Email   | Morada      | Idade |  Id      |
 | :----------- | :------------ | :-------- | :---------- | :----- | :-------- | :------ | :---------- | :---- | :------- |
+| 299526933    |
 
 ### Stock       
 | #codigoBarras -> produto  | quantidade |
