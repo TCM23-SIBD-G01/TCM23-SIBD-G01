@@ -43,9 +43,9 @@ STOCK (quantidade)
 ### COMPRA
 | Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
 | :------- | :--------- | :-------------- | :------------ | :------------------ | :------------------ |
-| 891-22   | 25/05/2024 |  Maria Andrade  |   25€         |    10%              |   mbway             |
-| 895-45   | 29/05/2024 |  Inês Machado   |   30€         |    5%               |   cartão de Crédito |
-| 920-32   | 15/06/2024 |  Joana Pacheco  |   10€         |    25%              |   dinheiro          |
+| 891-22   | 25/05/2024 |  Maria Andrade  |   25.00€         |    10%              |   mbway             |
+| 895-45   | 29/05/2024 |  Inês Machado   |   30.00€         |    5%               |   cartão de crédito |
+| 920-32   | 15/06/2024 |  Joana Pacheco  |   10.00€         |    25%              |   dinheiro          |
 
 ### CLIENTE
 | Contacto    | Nif           |  Nome
@@ -62,7 +62,7 @@ STOCK (quantidade)
 ### ENCOMENDA
 | Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio   |
 | :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :------------- |
-|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200€              |  30          | Correio Normal |
+|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€              |  30          | Correio Normal |
 
 ### PRODUTO
 | CodigoBarras |  Quantidade |   Preco   |        Nome          |   Sexo      |   Estacao   |
