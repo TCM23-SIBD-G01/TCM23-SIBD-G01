@@ -207,7 +207,7 @@ STOCK (quantidade)
 | 2813-888     | 1           | 16.20€   | Calções Largos          |  Homem      |  Primavera  |
 | 2819-989     | 5           | 25.05€   | Vestido Floral          |  Mulher     |  Verão      |
 | 2819-979     | 10          | 20.10€   | Calças Boca de Sino     |  Mulher     |  Primavera  |
-| 2935-777     | 1           | 15.85€   | Calções de Ganga        |  Mulher     |  Verão      |
+| 2935-777     | 1           | 15.85€   | Calções de Ganga        |  Homem      |  Verão      |
 | 2934-877     | 2           | 29.99€   | Calças Fato Treino      |  Unisexo    |  Outono     |
 |              |             |          | Camisola Yale           |  Unisexo    |  Primavera  |
 |              |             |          | Casaco c/ Capuz         |  Unisexo    |  Inverno    |
@@ -240,170 +240,45 @@ STOCK (quantidade)
 | :-------- | :----------------- | :-------------- |
 | XS        | T'shirt            | EUR             |
 | XL        | Camisa             | EUR             |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+| S         | Camisola           | EUR             |
+| M         | Calças             | EUR             |
+| XXL       | Casaco             | EUR             |
 
 ### COR
-| CódigoHexadecimal  | Nome    |
-| :----------------- | :------ |
-| #0000FF            | Azul    |
-| #A020F0            | Roxo    |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+| CódigoHexadecimal  | Nome     |
+| :----------------- | :------- |
+| #0000FF            | Azul     |
+| #A020F0            | Roxo     |
+| #39D10A            | Verde    |
+| #FA0505            | Vermelho |
+| #FFA500            | Amarelo  |
 
 ### MATERIAL
-| Nome | Composicao   | Propriedades | InstruçõesCuidados           |
-| :--- | :----------- | :----------- | :--------------------------- |
-|Malha | 100% algodão | Flexível     | Evitar usar máquina de secar |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+| Nome     | Composicao   | Propriedades | InstruçõesCuidados           |
+| :------- | :----------- | :----------- | :--------------------------- |
+|Malha     | 100% algodão | Flexível     | Evitar usar máquina de secar |
+|Linho     |
+|Seda      |
+|Fibra     |
+|Poliéster |
 
 ### FUNCIONARIO
-| Nif          | Iban          | Quantidade|  Horario    | Nome   | Contacto  | Email   | Morada      | Idade |  Id      |
-| :----------- | :------------ | :-------- | :---------- | :----- | :-------- | :------ | :---------- | :---- | :------- |
-| 299526933    |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+| Nif          | Iban          | Quantidade|  Horario    | Nome           | Contacto  | Email                   | Morada                                                | Idade |  Id      |
+| :----------- | :------------ | :-------- | :---------- | :------------- | :-------- | :---------------------- | :---------------------------------------------------- | :---- | :------- |
+| 299526933    |               |           | 08:30-12:30 | Paula Mota     | 935789176 | paula.mota@gmail.com    |                                                       | 29    | 
+| 093570125    |               |           | 08:30-12:30 | Sofia Ramos    | 960330420 | sofi02.ramos@gmail.com  |                                                       | 22    | 
+| 124975432    |               |           | 09:00-13:00 | Lara Mondego   | 916089190 | lararmondego@gmail.com  |                                                       | 19    | 
+| 827402809    |               |           | 09:00-13:30 | Diogo Matos    | 967772327 | diogom99@outlook.pt     | Travessa Senhor do Calvário, Rio Tinto, nº36 4435-449 | 25    | 
+| 518475314    |               |           | 09:00-13:30 | Rui Figueiredo | 930010450 | rfigueiredo@gmail.com   |                                                       | 20    | 
 
 ### Stock       
-| #codigoBarras -> produto  | quantidade |
-| :------------------------ | :--------- |
-|                           | 4          |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+| #codigoBarras -> produto        | quantidade |
+| :------------------------------ | :--------- |
+| 2813-888 -> Calções Largos      | 4          |
+| 2819-989 -> Vestido Floral      | 12         |
+| 2819-979 -> Calças Boca de Sino | 20         |
+| 2935-777 -> Calções de Ganga    | 3          |
+| 2934-877 -> Calças Fato Treino  | 10         |
 
 ### Tarefas
 |#id -> funcionarios | descricao |
@@ -413,36 +288,6 @@ STOCK (quantidade)
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-
-
-
 
 
 
