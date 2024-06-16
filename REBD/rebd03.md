@@ -202,13 +202,13 @@ STOCK (quantidade)
 |02735937034802 | 042429928  |    87463     | 02/01/2024    | 20/12/2023     | 400.00€           |  60          | Correio Expresso |
 
 ### PRODUTO
-| CodigoBarras |  Quantidade |   Preco  |        Nome            |   Sexo       |   Estacao   |
-| :----------- | :---------- | :------- | :--------------------- | :----------- | :---------- |
+| CodigoBarras |  Quantidade |   Preco  |        Nome             |   Sexo      |   Estacao   |
+| :----------- | :---------- | :------- | :---------------------- | :---------- | :---------- |
 | 2813-888     | 1           | 16.20€   | Calções Largos          |  Homem      |  Primavera  |
 | 2819-989     | 5           | 25.05€   | Vestido Floral          |  Mulher     |  Verão      |
 | 2819-979     | 10          | 20.10€   | Calças Boca de Sino     |  Mulher     |  Primavera  |
-|              |             |          | Calções de Ganga        |  Mulher     |  Verão      |
-|              |             |          | Calça Fato Treino       |  Unisexo    |  Outono     |
+| 2935-777     | 1           | 15.85€   | Calções de Ganga        |  Mulher     |  Verão      |
+| 2934-877     | 2           | 29.99€   | Calças Fato Treino      |  Unisexo    |  Outono     |
 |              |             |          | Camisola Yale           |  Unisexo    |  Primavera  |
 |              |             |          | Casaco c/ Capuz         |  Unisexo    |  Inverno    |
 |              |             |          | T'shirt Simples         |  Unisexo    |  Primavera  |
