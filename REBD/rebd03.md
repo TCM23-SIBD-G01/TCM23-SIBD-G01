@@ -263,13 +263,13 @@ STOCK (quantidade)
 |Poliéster |
 
 ### FUNCIONARIO
-| Nif          | Iban          | Quantidade|  Horario    | Nome           | Contacto  | Email                   | Morada                                                | Idade |  Id      |
-| :----------- | :------------ | :-------- | :---------- | :------------- | :-------- | :---------------------- | :---------------------------------------------------- | :---- | :------- |
-| 299526933    |               |           | 08:30-12:30 | Paula Mota     | 935789176 | paula.mota@gmail.com    | Rua da Padaria, Quelfes, nº29 8700-275                | 29    | 
-| 093570125    |               |           | 08:30-12:30 | Sofia Ramos    | 960330420 | sofi02.ramos@gmail.com  | Rua Marracuene, Coimbra, nº10 3030-061                | 22    | 
-| 124975432    |               |           | 09:00-13:30 | Lara Mondego   | 916089190 | lararmondego@gmail.com  | Rua Direita, Leça da Palmeira, nº452 4450-665         | 19    | 
-| 827402809    |               |           | 13:30-18:30 | Diogo Matos    | 967772327 | diogom99@outlook.pt     | Travessa Senhor do Calvário, Rio Tinto, nº36 4435-449 | 25    | 
-| 518475314    |               |           | 13:30-19:30 | Rui Figueiredo | 930010450 | rfigueiredo@gmail.com   | Rua de Sant'Anna, Ponta Delgada, nº72A 9500-078       | 20    | 
+| Nif          | Iban          | Quantidade|  Horario    | Nome           | Contacto  | Email                   | Morada                                                | Idade |  Id    |
+| :----------- | :------------ | :-------- | :---------- | :------------- | :-------- | :---------------------- | :---------------------------------------------------- | :---- | :----- |
+| 299526933    |               |           | 08:30-12:30 | Paula Mota     | 935789176 | paula.mota@gmail.com    | Rua da Padaria, Quelfes, nº29 8700-275                | 29    | 91274  |
+| 093570125    |               |           | 08:30-12:30 | Sofia Ramos    | 960330420 | sofi02.ramos@gmail.com  | Rua Marracuene, Coimbra, nº10 3030-061                | 22    | 26960  |
+| 124975432    |               |           | 09:00-13:30 | Lara Mondego   | 916089190 | lararmondego@gmail.com  | Rua Direita, Leça da Palmeira, nº452 4450-665         | 19    | 00916  |
+| 827402809    |               |           | 13:30-18:30 | Diogo Matos    | 967772327 | diogom99@outlook.pt     | Travessa Senhor do Calvário, Rio Tinto, nº36 4435-449 | 25    | 16327  |
+| 518475314    |               |           | 13:30-19:30 | Rui Figueiredo | 930010450 | rfigueiredo@gmail.com   | Rua de Sant'Anna, Ponta Delgada, nº72A 9500-078       | 20    | 56894  |
 
 ### Stock       
 | #codigoBarras -> produto        | quantidade |
@@ -283,11 +283,11 @@ STOCK (quantidade)
 ### Tarefas
 |#id -> funcionarios | descricao |
 | :----------------- | :-------- |
-|                    | apoio cliente
-|                    | provedores
-|                    | caixa registadora
-|                    | caixa registadora
-|                    | organizador do stock
+| 91274 -> Paula Mota      | apoio cliente
+| 26960 -> Sofia Ramos     | provedores
+| 00916 -> Lara Mondego    | caixa registadora
+| 16327 -> Diogo Matos     | caixa registadora
+| 56894 -> Rui Figueiredo  | organizador do stock
 
 
 
