@@ -134,38 +134,38 @@ STOCK (quantidade)
 | 963541343   | 215385046     |  Roma Martins   |
 
 ### FORNECEDOR
-| Id           | Nif          |   Morada                                               |   Nome            |     Iban                  |   Email                |  Contacto  |
-| :----------- | :----------- | :----------------------------------------------------- | :---------------- | :------------------------ | :--------------------- | :--------- |
-| 4434418     | 273498176    |   Rua do Calvário, Casais, nº8 4620-091                |   José Nunes      | PT23245829148218459012348 | jose.nunes@gmail.com   |  914229916 |
-| 44445895    | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087                |   André Mendes    | PT37482928391284783883222 | andre.mendes@gmail.com |  934278967 |
-| 4444444     | 017924962    |   Rua do Clero, Arcos de Valdevez, nº44 4970-249       |   Angélica Moniz  | PT87734946961023591240725 | angie.moniz@gmail.com  |  919865020 |
-| 4444444     | 987407107    |   Rua da Fontinha, Porto, nº47 4000-457                |   João Paiva      |
-| 4444444     | 019469601    |   Rua das Buganvílias, Cascais, nº47 2785-288          |   Alice Campos    |
-| 4444444     | 111239401    |   Rua Porta da Serra, Portimão, nº30 8500-603          |   Alberto Preto   |
-| 4444444     | 118640274    |   Rua dos Açores, Lisboa, nº11B 1000-001               |   Luísa Amorim    |
-| 4444444     | 000814029    |   Avenida da Praia, Porto, nº1231 3885-406             |   Augusto Guiomar |
-| 4444444     | 141564457    |   Travessa das Flores, Braga, nº23 4700-002            |   Maurício Pinto  |
-| 4444444     | 070342813    |   Avenida 25 de Abril, Valongo, nº211 4440-452         |   Gerson Lobo     |
-| 4444444     | 071239641    |   Rua Guilherme Centazzi, Faro, nº25 8000-189          |   Luís Sousa      |
-| 4444444     | 873987324    |   Avenida Central, Coimbra, nº10 3000-005              |   Francisco Beto  |
-| 4444444     | 666539135    |   Rua da Ponte, Guimarães, nº2 4800-006                |   Carlos Dinis    |
-| 4444444     | 962396542    |   Rua Eça de Queirós, Viseu, nº31 3500-008             |   Albertina Silva |
-| 4444444     | 012645019    |   Travessa do Mar, Setúbal, nº3 2900-009               |   Patrícia Almeida|
-| 4444444     | 186691931    |   Rua de Cabo Verde, Aveiro, nº 14 3800-010            |   Beatriz Morte   |
-| 4444444     | 090913434    |   Rua Junta, Coimbra, nº32  41-21                      |   Lucinda Lopo    |
-| 4444444     | 965027116    |   Largo do Carmo, Évora, nº3A 7000-013                 |   Gonçalo Brás    |
-| 4444444     | 981236545    |   Rua das Violetas, Faro, nº8 8000-014                 |   Vera Gonçalves  |
-| 4444444     | 961249604    |   Rua Pedro Vicente, Portalegre, nº35 7300-018         |   Dominique Félix |
-| 4444444     | 198162024    |   Rua das Magnólias, Santarém, nº2 2000-020            |   Vicente Tavares |
-| 4444444     | 269532652    |   Rua do Pinhal, Parede, nº301 301-283                 |   Iolanda Cosme   |
-| 4444444     | 456239573    |   Rua Nova da Santana, Viana do Castelo, nº10 4900-533 |   Valentina Santos|
-| 4444444     | 359457205    |   Rua da Paradinha, Vila Real, nº7 5000-023            |   Miguel Carvalhal|
-| 4444444     | 982350002    |   Avenida das Acácias, Lamego, nº14 3500-024           |   Hélder Paz      |
-| 4444444     | 142470324    |   Travessa dos Amores, Faro, nº1 8000-034              |   Vasco Lima      |
-| 4444444     | 111153464    |   Rua São João de Deus, Funchal, nº11 9000-028         |   Matilde Carvalho|
-| 4444444     | 123412511    |   Rua da Fonte, Ponta Delgada, nº17 9500-029           |   Ivo Moura       |
-| 4444444     | 312454123    |   Rua Dom Ferrão, Bragança, nº139 5300-025             |   Camilo Leal     |
-| 4444444     | 869560262    |   Rua Tavares dos Santos, Castelo Branco, nº18 6000-026|   Tiago Marmelo   |
+| Id          | Nif          |   Morada                                               |   Nome            |     Iban                  |   Email                   |  Contacto  |
+| :---------- | :----------- | :----------------------------------------------------- | :---------------- | :------------------------ | :------------------------ | :--------- |
+| 4434418     | 273498176    |   Rua do Calvário, Casais, nº8 4620-091                |   José Nunes      | PT23245829148218459012348 | jose.nunes@gmail.com      |  914229916 |
+| 44445895    | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087                |   André Mendes    | PT37482928391284783883222 | andre.mendes@gmail.com    |  934278967 |
+| 4444444     | 017924962    |   Rua do Clero, Arcos de Valdevez, nº44 4970-249       |   Angélica Moniz  | PT87734946961023591240725 | angie.moniz@gmail.com     |  919865020 |
+| 4444444     | 987407107    |   Rua da Fontinha, Porto, nº47 4000-457                |   João Paiva      | PT09723047230712036015234 | joaom.paiva@gmail.com     |
+| 4444444     | 019469601    |   Rua das Buganvílias, Cascais, nº47 2785-288          |   Alice Campos    | PT96123860741249393710572 | alice93.campos@outlook.pt |
+| 4444444     | 111239401    |   Rua Porta da Serra, Portimão, nº30 8500-603          |   Alberto Preto   | PT71513189236192394704204 | albrtprt66@gmail.com      |
+| 4444444     | 118640274    |   Rua dos Açores, Lisboa, nº11B 1000-001               |   Luísa Amorim    | PT96057057309547743434324 | luisaamorim@outlook.pt    |
+| 4444444     | 000814029    |   Avenida da Praia, Porto, nº1231 3885-406             |   Augusto Guiomar | PT00024324323444440333325 | augusto.guiomar@gmail.com |
+| 4444444     | 141564457    |   Travessa das Flores, Braga, nº23 4700-002            |   Maurício Pinto  | PT97498834234883423455532 | mauriciop@outlook.pt      |
+| 4444444     | 070342813    |   Avenida 25 de Abril, Valongo, nº211 4440-452         |   Gerson Lobo     | PT11198749354536533534676 | globo678@gmail.com        |
+| 4444444     | 071239641    |   Rua Guilherme Centazzi, Faro, nº25 8000-189          |   Luís Sousa      | PT98838463983447433335567 | luisss@outlook.pt         |
+| 4444444     | 873987324    |   Avenida Central, Coimbra, nº10 3000-005              |   Francisco Beto  | PT07249659870759348702347 | franc.beto@gmail.com      |
+| 4444444     | 666539135    |   Rua da Ponte, Guimarães, nº2 4800-006                |   Carlos Dinis    | PT01263794643862125343425 | carlitos90.dinis@gmil.com |
+| 4444444     | 962396542    |   Rua Eça de Queirós, Viseu, nº31 3500-008             |   Albertina Silva | PT62395620475083498710472 | alsilva11@outlook.pt      |
+| 4444444     | 012645019    |   Travessa do Mar, Setúbal, nº3 2900-009               |   Patrícia Almeida| PT02375049571296474280240 | paty.almeida@outlook.com  |
+| 4444444     | 186691931    |   Rua de Cabo Verde, Aveiro, nº 14 3800-010            |   Beatriz Morte   | PT04680473495698465982749 | beamorreu000@gmail.com    |
+| 4444444     | 090913434    |   Rua Junta, Coimbra, nº32  41-21                      |   Lucinda Lopo    | PT04583729384743974444777 | lululopo@gmail.com        |
+| 4444444     | 965027116    |   Largo do Carmo, Évora, nº3A 7000-013                 |   Gonçalo Brás    | PT98649346283621322334425 | gongas.br02@gmail.com     |
+| 4444444     | 981236545    |   Rua das Violetas, Faro, nº8 8000-014                 |   Vera Gonçalves  | PT48957294347502473497340 | veraaa99@gmail.com        |
+| 4444444     | 961249604    |   Rua Pedro Vicente, Portalegre, nº35 7300-018         |   Dominique Félix | PT85438469346412459431439 | domfelix@gmail.com        |
+| 4444444     | 198162024    |   Rua das Magnólias, Santarém, nº2 2000-020            |   Vicente Tavares | PT31435324536746367446367 | vic.tavares@outlook.pt    |
+| 4444444     | 269532652    |   Rua do Pinhal, Parede, nº301 301-283                 |   Iolanda Cosme   | PT34676576854542347456666 | .io.io.cosme.@outlook.pt  |
+| 4444444     | 456239573    |   Rua Nova da Santana, Viana do Castelo, nº10 4900-533 |   Valentina Santos| PT35467695436280989098978 | val.santos95@outlook.pt   |
+| 4444444     | 359457205    |   Rua da Paradinha, Vila Real, nº7 5000-023            |   Miguel Carvalhal| PT34543245463245678787545 | migascrvlhl@outlook.pt    |
+| 4444444     | 982350002    |   Avenida das Acácias, Lamego, nº14 3500-024           |   Hélder Paz      | PT12345678909876543245676 | http.az@gmail.com         |
+| 4444444     | 142470324    |   Travessa dos Amores, Faro, nº1 8000-034              |   Vasco Lima      | PT45678765567786543222345 | vasco.lima@gmail.com      |
+| 4444444     | 111153464    |   Rua São João de Deus, Funchal, nº11 9000-028         |   Matilde Carvalho| PT34567890897321234363233 | mat.carvlh@gmail.com      |
+| 4444444     | 123412511    |   Rua da Fonte, Ponta Delgada, nº17 9500-029           |   Ivo Moura       | PT09876543456768456345678 | ivo.moura@gmail.com       |
+| 4444444     | 312454123    |   Rua Dom Ferrão, Bragança, nº139 5300-025             |   Camilo Leal     | PT34657503297489324656865 | camileal69@outlook.pt     |
+| 4444444     | 869560262    |   Rua Tavares dos Santos, Castelo Branco, nº18 6000-026|   Tiago Marmelo   | PT02837563892927475839294 | tigs.marmelo@gmail.com    |
 
 ### ENCOMENDA
 | Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio   |
