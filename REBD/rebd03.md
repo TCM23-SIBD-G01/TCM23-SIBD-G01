@@ -257,10 +257,10 @@ STOCK (quantidade)
 | Nome     | Composicao   | Propriedades | InstruçõesCuidados           |
 | :------- | :----------- | :----------- | :--------------------------- |
 |Malha     | 100% algodão | Flexível     | Evitar usar máquina de secar |
-|Linho     |
-|Seda      |
-|Fibra     |
-|Poliéster |
+|Linho     | 0% algodão   | Não Flexível | Evitar usar máquina de secar |
+|Seda      | 10% algodão  | Flexível     | Evitar usar máquina de secar |
+|Fibra     | 0% algodão   | Flexível     | Evitar usar máquina de secar |
+|Poliéster | 50% algodão  | Flexível     | Evitar usar máquina de secar |
 
 ### FUNCIONARIO
 | Nif          | Iban          | Quantidade|  Horario    | Nome           | Contacto  | Email                   | Morada                                                | Idade |  Id    |
