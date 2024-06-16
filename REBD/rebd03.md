@@ -136,103 +136,104 @@ STOCK (quantidade)
 ### FORNECEDOR
 | Id          | Nif          |   Morada                                               |   Nome            |     Iban                  |   Email                   |  Contacto  |
 | :---------- | :----------- | :----------------------------------------------------- | :---------------- | :------------------------ | :------------------------ | :--------- |
-| 4434618     | 273498176    |   Rua do Calvário, Casais, nº8 4620-091                |   José Nunes      | PT23245829148218459012348 | jose.nunes@gmail.com      |  914229916 |
-| 4444589     | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087                |   André Mendes    | PT37482928391284783883222 | andre.mendes@gmail.com    |  934278967 |
-| 9823759     | 017924962    |   Rua do Clero, Arcos de Valdevez, nº44 4970-249       |   Angélica Moniz  | PT87734946961023591240725 | angie.moniz@gmail.com     |  919865020 |
-| 4742353     | 987407107    |   Rua da Fontinha, Porto, nº47 4000-457                |   João Paiva      | PT09723047230712036015234 | joaom.paiva@gmail.com     |  962678678 |
-| 4235365     | 019469601    |   Rua das Buganvílias, Cascais, nº47 2785-288          |   Alice Campos    | PT96123860741249393710572 | alice93.campos@outlook.pt |  934780756 |
-| 1232547     | 111239401    |   Rua Porta da Serra, Portimão, nº30 8500-603          |   Alberto Preto   | PT71513189236192394704204 | albrtprt66@gmail.com      |  966678488 |
-| 0875435     | 118640274    |   Rua dos Açores, Lisboa, nº11B 1000-001               |   Luísa Amorim    | PT96057057309547743434324 | luisaamorim@outlook.pt    |  919656645 |
-| 2353657     | 000814029    |   Avenida da Praia, Porto, nº1231 3885-406             |   Augusto Guiomar | PT00024324323444440333325 | augusto.guiomar@gmail.com |  914456456 |
-| 4455500     | 141564457    |   Travessa das Flores, Braga, nº23 4700-002            |   Maurício Pinto  | PT97498834234883423455532 | mauriciop@outlook.pt      |  914565686 |
-| 1242455     | 070342813    |   Avenida 25 de Abril, Valongo, nº211 4440-452         |   Gerson Lobo     | PT11198749354536533534676 | globo678@gmail.com        |  938679780 |
-| 5465342     | 071239641    |   Rua Guilherme Centazzi, Faro, nº25 8000-189          |   Luís Sousa      | PT98838463983447433335567 | luisss@outlook.pt         |  966789089 |
-| 2344632     | 873987324    |   Avenida Central, Coimbra, nº10 3000-005              |   Francisco Beto  | PT07249659870759348702347 | franc.beto@gmail.com      |  935678890 |
-| 4200056     | 666539135    |   Rua da Ponte, Guimarães, nº2 4800-006                |   Carlos Dinis    | PT01263794643862125343425 | carlitos90.dinis@gmil.com |  935654608 |
-| 4778975     | 962396542    |   Rua Eça de Queirós, Viseu, nº31 3500-008             |   Albertina Silva | PT62395620475083498710472 | alsilva11@outlook.pt      |  968439790 |
-| 4112353     | 012645019    |   Travessa do Mar, Setúbal, nº3 2900-009               |   Patrícia Almeida| PT02375049571296474280240 | paty.almeida@outlook.com  |  968924672 |
-| 9745346     | 186691931    |   Rua de Cabo Verde, Aveiro, nº 14 3800-010            |   Beatriz Morte   | PT04680473495698465982749 | beamorreu000@gmail.com    |  966734865 |
-| 1423246     | 090913434    |   Rua Junta, Coimbra, nº32  41-21                      |   Lucinda Lopo    | PT04583729384743974444777 | lululopo@gmail.com        |  965456672 |
-| 4175384     | 965027116    |   Largo do Carmo, Évora, nº3A 7000-013                 |   Gonçalo Brás    | PT98649346283621322334425 | gongas.br02@gmail.com     |  914568689 |
-| 4780420     | 981236545    |   Rua das Violetas, Faro, nº8 8000-014                 |   Vera Gonçalves  | PT48957294347502473497340 | veraaa99@gmail.com        |  915667785 |
-| 4330539     | 961249604    |   Rua Pedro Vicente, Portalegre, nº35 7300-018         |   Dominique Félix | PT85438469346412459431439 | domfelix@gmail.com        |  916897864 |
-| 2245864     | 198162024    |   Rua das Magnólias, Santarém, nº2 2000-020            |   Vicente Tavares | PT31435324536746367446367 | vic.tavares@outlook.pt    |  939785432 |
-| 1497054     | 269532652    |   Rua do Pinhal, Parede, nº301 301-283                 |   Iolanda Cosme   | PT34676576854542347456666 | .io.io.cosme.@outlook.pt  |  915469676 |
-| 3580000     | 456239573    |   Rua Nova da Santana, Viana do Castelo, nº10 4900-533 |   Valentina Santos| PT35467695436280989098978 | val.santos95@outlook.pt   |  934585665 |
-| 0096367     | 359457205    |   Rua da Paradinha, Vila Real, nº7 5000-023            |   Miguel Carvalhal| PT34543245463245678787545 | migascrvlhl@outlook.pt    |  913242543 |
-| 3557643     | 982350002    |   Avenida das Acácias, Lamego, nº14 3500-024           |   Hélder Paz      | PT12345678909876543245676 | http.az@gmail.com         |  965664535 |
-| 5474265     | 142470324    |   Travessa dos Amores, Faro, nº1 8000-034              |   Vasco Lima      | PT45678765567786543222345 | vasco.lima@gmail.com      |  935686456 |
-| 6776435     | 111153464    |   Rua São João de Deus, Funchal, nº11 9000-028         |   Matilde Carvalho| PT34567890897321234363233 | mat.carvlh@gmail.com      |  916745646 |
-| 4436323     | 123412511    |   Rua da Fonte, Ponta Delgada, nº17 9500-029           |   Ivo Moura       | PT09876543456768456345678 | ivo.moura@gmail.com       |  963445553 |
-| 4087636     | 312454123    |   Rua Dom Ferrão, Bragança, nº139 5300-025             |   Camilo Leal     | PT34657503297489324656865 | camileal69@outlook.pt     |  935887358 |
-| 1245790     | 869560262    |   Rua Tavares dos Santos, Castelo Branco, nº18 6000-026|   Tiago Marmelo   | PT02837563892927475839294 | tigs.marmelo@gmail.com    |  915663244 |
+| 73937       | 273498176    |   Rua do Calvário, Casais, nº8 4620-091                |   José Nunes      | PT23245829148218459012348 | jose.nunes@gmail.com      |  914229916 |
+| 36458       | 542897137    |   Rua do Presa, Penamaior, nº2 4792-087                |   André Mendes    | PT37482928391284783883222 | andre.mendes@gmail.com    |  934278967 |
+| 86360       | 017924962    |   Rua do Clero, Arcos de Valdevez, nº44 4970-249       |   Angélica Moniz  | PT87734946961023591240725 | angie.moniz@gmail.com     |  919865020 |
+| 76580       | 987407107    |   Rua da Fontinha, Porto, nº47 4000-457                |   João Paiva      | PT09723047230712036015234 | joaom.paiva@gmail.com     |  962678678 |
+| 25347       | 019469601    |   Rua das Buganvílias, Cascais, nº47 2785-288          |   Alice Campos    | PT96123860741249393710572 | alice93.campos@outlook.pt |  934780756 |
+| 67854       | 111239401    |   Rua Porta da Serra, Portimão, nº30 8500-603          |   Alberto Preto   | PT71513189236192394704204 | albrtprt66@gmail.com      |  966678488 |
+| 89400       | 118640274    |   Rua dos Açores, Lisboa, nº11B 1000-001               |   Luísa Amorim    | PT96057057309547743434324 | luisaamorim@outlook.pt    |  919656645 |
+| 67989       | 000814029    |   Avenida da Praia, Porto, nº1231 3885-406             |   Augusto Guiomar | PT00024324323444440333325 | augusto.guiomar@gmail.com |  914456456 |
+| 34647       | 141564457    |   Travessa das Flores, Braga, nº23 4700-002            |   Maurício Pinto  | PT97498834234883423455532 | mauriciop@outlook.pt      |  914565686 |
+| 75812       | 070342813    |   Avenida 25 de Abril, Valongo, nº211 4440-452         |   Gerson Lobo     | PT11198749354536533534676 | globo678@gmail.com        |  938679780 |
+| 78579       | 071239641    |   Rua Guilherme Centazzi, Faro, nº25 8000-189          |   Luís Sousa      | PT98838463983447433335567 | luisss@outlook.pt         |  966789089 |
+| 45637       | 873987324    |   Avenida Central, Coimbra, nº10 3000-005              |   Francisco Beto  | PT07249659870759348702347 | franc.beto@gmail.com      |  935678890 |
+| 67844       | 666539135    |   Rua da Ponte, Guimarães, nº2 4800-006                |   Carlos Dinis    | PT01263794643862125343425 | carlitos90.dinis@gmil.com |  935654608 |
+| 89567       | 962396542    |   Rua Eça de Queirós, Viseu, nº31 3500-008             |   Albertina Silva | PT62395620475083498710472 | alsilva11@outlook.pt      |  968439790 |
+| 34654       | 012645019    |   Travessa do Mar, Setúbal, nº3 2900-009               |   Patrícia Almeida| PT02375049571296474280240 | paty.almeida@outlook.com  |  968924672 |
+| 87463       | 186691931    |   Rua de Cabo Verde, Aveiro, nº 14 3800-010            |   Beatriz Morte   | PT04680473495698465982749 | beamorreu000@gmail.com    |  966734865 |
+| 34468       | 090913434    |   Rua Junta, Coimbra, nº32  41-21                      |   Lucinda Lopo    | PT04583729384743974444777 | lululopo@gmail.com        |  965456672 |
+| 63456       | 965027116    |   Largo do Carmo, Évora, nº3A 7000-013                 |   Gonçalo Brás    | PT98649346283621322334425 | gongas.br02@gmail.com     |  914568689 |
+| 67978       | 981236545    |   Rua das Violetas, Faro, nº8 8000-014                 |   Vera Gonçalves  | PT48957294347502473497340 | veraaa99@gmail.com        |  915667785 |
+| 78589       | 961249604    |   Rua Pedro Vicente, Portalegre, nº35 7300-018         |   Dominique Félix | PT85438469346412459431439 | domfelix@gmail.com        |  916897864 |
+| 34668       | 198162024    |   Rua das Magnólias, Santarém, nº2 2000-020            |   Vicente Tavares | PT31435324536746367446367 | vic.tavares@outlook.pt    |  939785432 |
+| 86978       | 269532652    |   Rua do Pinhal, Parede, nº301 301-283                 |   Iolanda Cosme   | PT34676576854542347456666 | .io.io.cosme.@outlook.pt  |  915469676 |
+| 35687       | 456239573    |   Rua Nova da Santana, Viana do Castelo, nº10 4900-533 |   Valentina Santos| PT35467695436280989098978 | val.santos95@outlook.pt   |  934585665 |
+| 56587       | 359457205    |   Rua da Paradinha, Vila Real, nº7 5000-023            |   Miguel Carvalhal| PT34543245463245678787545 | migascrvlhl@outlook.pt    |  913242543 |
+| 67874       | 982350002    |   Avenida das Acácias, Lamego, nº14 3500-024           |   Hélder Paz      | PT12345678909876543245676 | http.az@gmail.com         |  965664535 |
+| 34776       | 142470324    |   Travessa dos Amores, Faro, nº1 8000-034              |   Vasco Lima      | PT45678765567786543222345 | vasco.lima@gmail.com      |  935686456 |
+| 67874       | 111153464    |   Rua São João de Deus, Funchal, nº11 9000-028         |   Matilde Carvalho| PT34567890897321234363233 | mat.carvlh@gmail.com      |  916745646 |
+| 45875       | 123412511    |   Rua da Fonte, Ponta Delgada, nº17 9500-029           |   Ivo Moura       | PT09876543456768456345678 | ivo.moura@gmail.com       |  963445553 |
+| 34547       | 312454123    |   Rua Dom Ferrão, Bragança, nº139 5300-025             |   Camilo Leal     | PT34657503297489324656865 | camileal69@outlook.pt     |  935887358 |
+| 87656       | 869560262    |   Rua Tavares dos Santos, Castelo Branco, nº18 6000-026|   Tiago Marmelo   | PT02837563892927475839294 | tigs.marmelo@gmail.com    |  915663244 |
 
 ### ENCOMENDA
-| Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio   |
-| :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :------------- |
-|61535182290258 | 838373928  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€           |  30          | Correio Normal |
-|01724023650404 | 326507024  |    34647     | 
-|91624027121425 | 877124986  |    34668     | 
-|98162402472354 | 986356025  |    36458     | 
-|96302750742350 | 253649462  |    25347     | 
-|87858916411156 | 874979262  |    34654     | 
-|44372469469145 | 968968415  |    35687     | 
-|92658513072305 | 764739691  |    34776     | 
-|74635327825352 | 142447977  |    34547     | 
-|47258265824675 | 134596456  |    87656     | 
-|22267457927135 | 752384545  |    45637     | 
-|23496234062598 | 553535777  |    45875     | 
-|86465536435435 | 142424357  |    78589     | 
-|75858573221857 | 339572559  |    67874     | 
-|74195862750200 | 002658266  |    67874     | 
-|53633738273343 | 345447463  |    56587     | 
-|86586213853252 | 164869246  |    86978     | 
-|86234825103839 | 122455733  |    63456     | 
-|87364987065929 | 572592598  |    75812     | 
-|12423946129026 | 305823640  |    67989     | 
-|23429632057240 | 571871528  |    67978     | 
-|96604870849300 | 004236249  |    86360     | 
-|87253934605724 | 225983650  |    76580     | 
-|76513861496111 | 316491246  |    89400     | 
-|20473496324972 | 598492659  |    67854     | 
-|22842035720472 | 047204724  |    78579     | 
-|98606856780683 | 141297000  |    67844     | 
-|12971393573057 | 074918263  |    89567     | 
-|92364043574120 | 462402535  |    34468     | 
+| Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio     |
+| :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :--------------- |
+|61535182290258 | 042429918  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€           |  30          | Correio Normal   |
+|01724023650404 | 042429926  |    34647     | 04/04/2024    | 04/03/2024     | 400.00€           |  80          | Correio Normal   |
+|91624027121425 | 042429916  |    34668     | 30/03/2024    | 25/03/2024     | 150.00€           |  20          | Correio Expresso |
+|98162402472354 | 042429927  |    36458     | 06/05/2023    | 16/05/2023     | 50.00€            |  7           | Correio Expresso |
+|96302750742350 | 042429919  |    25347     | 12/02/2023    | 25/01/2023     | 600.00€           |  150         | Correio Normal   |
+|87858916411156 | 042429917  |    34654     | 22/01/2024    | 31/12/2023     | 300.00€           |  70          | Correio Normal   |
+|44372469469145 | 042429911  |    35687     | 23/11/2023    | 20/10/2023     | 250.00€           |  35          | Correio Normal   |
+|92658513072305 | 042429912  |    34776     | 16/12/2022    | 10/12/2022     | 160.00€           |  15          | Correio Expresso |
+|74635327825352 | 042429921  |    34547     | 22/03/2024    | 22/02/2024     | 400.00€           |  70          | Correio Normal   |
+|47258265824675 | 042429920  |    87656     | 07/12/2023    | 01/12/2023     | 200.00€           |  30          | Correio Expresso |
+|22267457927135 | 042429914  |    45637     | 09/12/2020    | 09/11/2020     | 150.00€           |  25          | Correio Normal   |
+|23496234062598 | 042429908  |    45875     | 09/09/2023    | 09/08/2023     | 50.00€            |  10          | Correio Normal   |
+|86465536435435 | 042429909  |    78589     | 01/02/2014    | 20/01/2014     | 100.00€           |  15          | Correio Expresso |
+|75858573221857 | 042429922  |    67874     | 29/03/2024    | 20/03/2024     | 100.00€           |  20          | Correio Expresso |
+|74195862750200 | 042429924  |    67874     | 04/08/2020    | 01/07/2020     | 200.00€           |  20          | Correio Normal   |
+|53633738273343 | 042429925  |    56587     | 10/05/2019    | 01/05/2019     | 300.00€           |  25          | Correio Expresso |
+|86586213853252 | 042429915  |    86978     | 11/05/2018    | 01/05/2018     | 350.00€           |  60          | Correio Expresso |
+|86234825103839 | 042429913  |    63456     | 18/04/2019    | 01/04/2019     | 400.00€           |  80          | Correio Normal   |
+|87364987065929 | 042429923  |    75812     | 19/03/2016    | 10/03/2016     | 500.00€           |  100         | Correio Expresso |
+|12423946129026 | 042429905  |    67989     | 20/01/2022    | 01/01/2022     | 450.00€           |  100         | Correio Normal   |
+|23429632057240 | 042429910  |    67978     | 21/09/2021    | 02/09/2021     | 200.00€           |  50          | Correio Normal   |
+|96604870849300 | 042429907  |    86360     | 28/07/2021    | 15/07/2021     | 200.00€           |  35          | Correio Normal   |
+|87253934605724 | 042429906  |    76580     | 11/11/2023    | 11/10/2023     | 150.00€           |  20          | Correio Normal   |
+|76513861496111 | 042429904  |    89400     | 15/11/2022    | 14/10/2022     | 100.00€           |  15          | Correio Normal   |
+|20473496324972 | 042429903  |    67854     | 16/10/2023    | 16/09/2023     | 50.00€            |  7           | Correio Normal   |
+|22842035720472 | 042429899  |    78579     | 26/03/2024    | 29/02/2024     | 800.00€           |  180         | Correio Normal   |
+|98606856780683 | 042429900  |    67844     | 14/09/2023    | 14/08/2023     | 150.00€           |  15          | Correio Normal   |
+|12971393573057 | 042429901  |    89567     | 08/08/2013    | 08/07/2013     | 350.00€           |  60          | Correio Normal   |
+|92364043574120 | 042429902  |    34468     | 25/03/2024    | 10/03/2024     | 350.00€           |  50          | Correio Expresso |
+|02735937034802 | 042429928  |    87463     | 02/01/2024    | 20/12/2023     | 400.00€           |  60          | Correio Expresso |
 
 ### PRODUTO
-| CodigoBarras |  Quantidade |   Preco  |        Nome          |   Sexo      |   Estacao   |
-| :----------- | :---------- | :------- | :------------------- | :---------- | :---------- |
-| 2813-888     | 1           | 16.20€   | Calções Largos       |  Masculinho |  Primavera  |
-| 2819-989     | 5           | 25.05€   | Vestido Floral       |  Feminino   |  Verão      |
-| 2819-989     | 10          | 20.10€   | Calças Boca de Sino  |  Feminino   |  Primavera  |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+| CodigoBarras |  Quantidade |   Preco  |        Nome            |   Sexo       |   Estacao   |
+| :----------- | :---------- | :------- | :--------------------- | :----------- | :---------- |
+| 2813-888     | 1           | 16.20€   | Calções Largos          |  Homem      |  Primavera  |
+| 2819-989     | 5           | 25.05€   | Vestido Floral          |  Mulher     |  Verão      |
+| 2819-979     | 10          | 20.10€   | Calças Boca de Sino     |  Mulher     |  Primavera  |
+|              |             |          | Calções de Ganga        |  Mulher     |  Verão      |
+|              |             |          | Calça Fato Treino       |  Unisexo    |  Outono     |
+|              |             |          | Camisola Yale           |  Unisexo    |  Primavera  |
+|              |             |          | Casaco c/ Capuz         |  Unisexo    |  Inverno    |
+|              |             |          | T'shirt Simples         |  Unisexo    |  Primavera  |
+|              |             |          | Sapatilhas              |  Homem      |  Outono     |
+|              |             |          | Meias'Calças            |  Mulher     |  Primavera  |
+|              |             |          | Luvas Ciclismo          |  Homem      |  Verão      |
+|              |             |          | Gorro                   |  Homem      |  Inverno    |
+|              |             |          | Chapéu Praia            |  Mulher     |  Verão      |
+|              |             |          | Top Corset              |  Mulher     |  Verão      |
+|              |             |          | Conjunto 3 Boxers       |  Homem      |  Inverno    |
+|              |             |          | Pulseira prata          |  Homem      |  Primavera  |
+|              |             |          | Calças Ganga Clara      |  Homem      |  Primavera  |
+|              |             |          | Calções Ciclista        |  Homem      |  Primavera  |
+|              |             |          | Sandálias Simples       |  Mulher     |  Verão      |
+|              |             |          | Óculos de Sol           |  Unisexo    |  Verão      |
+|              |             |          | Anél                    |  Homem      |  Outono     |
+|              |             |          | Chinelo de Dedo         |  Mulher     |  Verão      |
+|              |             |          | Meias Cardadas          |  Mulher     |  Inverno    |
+|              |             |          | Pijama Fresco           |  Mulher     |  Verão      |
+|              |             |          | Vestido Justo           |  Mulher     |  Outono     |
+|              |             |          | Vestido Curto           |  Mulher     |  Verão      |
+|              |             |          | Botas Plataforma        |  Homem      |  Inverno    |
+|              |             |          | Lenço Florido           |  Mulher     |  Verão      |
+|              |             |          | Camisa axadrezada       |  Unisexo    |  Outono     |
+|              |             |          | Camisola Manga Comprida |  Homem      |  Primavera  |
 
 ### TAMANHO
 | Codigo    |  CategoriaPeça     |   UnidadeMedida |
