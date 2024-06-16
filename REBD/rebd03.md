@@ -265,11 +265,11 @@ STOCK (quantidade)
 ### FUNCIONARIO
 | Nif          | Iban          | Quantidade|  Horario    | Nome           | Contacto  | Email                   | Morada                                                | Idade |  Id    |
 | :----------- | :------------ | :-------- | :---------- | :------------- | :-------- | :---------------------- | :---------------------------------------------------- | :---- | :----- |
-| 299526933    |               |           | 08:30-12:30 | Paula Mota     | 935789176 | paula.mota@gmail.com    | Rua da Padaria, Quelfes, nº29 8700-275                | 29    | 91274  |
-| 093570125    |               |           | 08:30-12:30 | Sofia Ramos    | 960330420 | sofi02.ramos@gmail.com  | Rua Marracuene, Coimbra, nº10 3030-061                | 22    | 26960  |
-| 124975432    |               |           | 09:00-13:30 | Lara Mondego   | 916089190 | lararmondego@gmail.com  | Rua Direita, Leça da Palmeira, nº452 4450-665         | 19    | 00916  |
-| 827402809    |               |           | 13:30-18:30 | Diogo Matos    | 967772327 | diogom99@outlook.pt     | Travessa Senhor do Calvário, Rio Tinto, nº36 4435-449 | 25    | 16327  |
-| 518475314    |               |           | 13:30-19:30 | Rui Figueiredo | 930010450 | rfigueiredo@gmail.com   | Rua de Sant'Anna, Ponta Delgada, nº72A 9500-078       | 20    | 56894  |
+| 299526933    | 8792349654    | 1         | 08:30-12:30 | Paula Mota     | 935789176 | paula.mota@gmail.com    | Rua da Padaria, Quelfes, nº29 8700-275                | 29    | 91274  |
+| 093570125    | 9826359875    | 1         | 08:30-12:30 | Sofia Ramos    | 960330420 | sofi02.ramos@gmail.com  | Rua Marracuene, Coimbra, nº10 3030-061                | 22    | 26960  |
+| 124975432    | 0238472947    | 1         | 09:00-13:30 | Lara Mondego   | 916089190 | lararmondego@gmail.com  | Rua Direita, Leça da Palmeira, nº452 4450-665         | 19    | 00916  |
+| 827402809    | 1873930250    | 1         | 13:30-18:30 | Diogo Matos    | 967772327 | diogom99@outlook.pt     | Travessa Senhor do Calvário, Rio Tinto, nº36 4435-449 | 25    | 16327  |
+| 518475314    | 4173857154    | 1         | 13:30-19:30 | Rui Figueiredo | 930010450 | rfigueiredo@gmail.com   | Rua de Sant'Anna, Ponta Delgada, nº72A 9500-078       | 20    | 56894  |
 
 ### Stock       
 | #codigoBarras -> produto        | quantidade |
