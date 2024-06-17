@@ -114,3 +114,32 @@ CREATE TABLE IF NOT EXISTS `Encomenda` (
     FOREIGN KEY (`IdLoja`) REFERENCES Loja(`Id`),
     FOREIGN KEY (`IdFornecedor`) REFERENCES Fornecedor(`Id`)
 );
+
+INSERT INTO compra
+VALUES ("891-23","25/05/2024","Maria Andrade", 25, 10, 'mbway'),
+("895-24", "29/05/2024", "Inês Machado", 30, 5, 'cartão de crédito'),
+("920-25", "15/06/2024","Joana Pacheco", 10, 25, 'dinheiro'),
+("891-48","25/05/2024","Maria Andrade", 25, 10, 'mbway'),
+("895-49", "29/05/2024", "Inês Machado", 30, 5, 'cartão de crédito'),
+("920-50", "15/06/2024","Joana Pacheco", 10, 25, 'dinheiro');
+
+INSERT INTO cliente
+VALUES (273380087, "Maria Andrade", 912345981),
+(280099821, "Inês Machado", 987789654),
+(280099822, "Joana Pacheco", 123456789),
+(280099823, "MAntónio Silva", 213456789),
+(280099824, "Mário Santos", 312456789),
+(280099825, "Sílvia Marques", 213456790);
+
+INSERT INTO cor
+VALUES ("#06FD9C", "Azul"),
+("#0ED57D", "Roxo"),
+("#1A276B", "Verde"),
+("#25C92E", "Vermelho"),
+("#2C216C", "Amarelo");
+
+INSERT INTO encomenda
+VALUES (61535182290254, 2014-02-15, 2024-03-27, 42429902, 999.89, "correios normal", 73927, 123),
+(61535182290255, 2024-03-08, 2024-05-24, 42429902, 999.89, "correios normal", 73927, 123),
+(61535182290256, 2024-02-12, 2024-03-20, 42429902, 999.89, "correios normal", 73927, 123),
+(61535182290258, 2024-02-15, 2024-03-27, 42429902, 999.89, "correios normal", 73927, 123),
