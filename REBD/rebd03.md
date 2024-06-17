@@ -168,12 +168,12 @@ STOCK (quantidade)
 | 87656       | 869560262    |   Rua Tavares dos Santos, Castelo Branco, nº18 6000-026|   Tiago Marmelo   | PT02837563892927475839294 | tigs.marmelo@gmail.com    |  915663244 |
 
 ### ENCOMENDA
-| Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio     |
-| :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :--------------- |
-|61535182290258 | 042429918  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€           |  30          | Correios Normal  |
-|01724023650404 | 042429926  |    34647     | 04/04/2024    | 04/03/2024     | 400.00€           |  80          | Correios Express |
-|91624027121425 | 042429916  |    34668     | 30/03/2024    | 25/03/2024     | 150.00€           |  20          | Correios Normal  |
-|98162402472354 | 042429927  |    36458     | 06/05/2023    | 16/05/2023     | 50.00€            |  7           | Correios Normal  |
+| Id            |   IdLoja   | IdFornecedor |  DataEntrega  |  DataPedido    |  ValorEncomenda   |  Quantidade  |  MetodoEnvio          |
+| :------------ | :--------- | :----------- | :------------ | :------------- | :---------------- | :----------- | :-------------------- |
+|61535182290258 | 042429918  |    73937     | 27/03/2024    | 15/02/2024     | 200.00€           |  30          | Correios Normal       |
+|01724023650404 | 042429926  |    34647     | 04/04/2024    | 04/03/2024     | 400.00€           |  80          | Correios Express      |
+|91624027121425 | 042429916  |    34668     | 30/03/2024    | 25/03/2024     | 150.00€           |  20          | Transportadora Normal |
+|98162402472354 | 042429927  |    36458     | 06/05/2023    | 16/05/2023     | 50.00€            |  7           | Correios Normal       |
 
 ### PRODUTO
 | CodigoBarras |  Quantidade |   Preco  |        Nome             |   Sexo      |   Estacao   |
