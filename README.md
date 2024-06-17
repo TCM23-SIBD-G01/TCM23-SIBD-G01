@@ -14,7 +14,8 @@ _Please help reader navigate around describing how the repository is organized b
 
 ## Galeria
 
-A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.
+A [table](https://www.markdownguide.org/extended-syntax/#tables) may be usefull to organize the images.![de](https://github.com/TCM23-SIBD-G01/TCM23-SIBD-G01/assets/153816610/430e61e1-18d6-4b38-a4a9-dcfedf4bf00c)
+
 
 ## Tecnologias
 
