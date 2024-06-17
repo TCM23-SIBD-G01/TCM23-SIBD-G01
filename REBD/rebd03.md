@@ -153,11 +153,11 @@ STOCK (quantidade)
 ### PRODUTO
 | CodigoBarras |  Quantidade |   Preco  |        Nome             |   Sexo      |   Estacao   |
 | :----------- | :---------- | :------- | :---------------------- | :---------- | :---------- |
-| 2813-888     | 1           | 16.20€   | Calções Largos          |  Homem      |  Primavera  |
-| 2819-989     | 5           | 25.05€   | Vestido Floral          |  Mulher     |  Verão      |
-| 2819-979     | 10          | 20.10€   | Calças Boca de Sino     |  Mulher     |  Primavera  |
-| 2935-777     | 1           | 15.85€   | Calções de Ganga        |  Homem      |  Verão      |
-| 2934-877     | 2           | 29.99€   | Calças Fato Treino      |  Unisexo    |  Outono     |
+| 2813888     | 1           | 16.20€   | Calções Largos          |  Homem      |  Primavera  |
+| 2819989     | 5           | 25.05€   | Vestido Floral          |  Mulher     |  Verão      |
+| 2819979     | 10          | 20.10€   | Calças Boca de Sino     |  Mulher     |  Primavera  |
+| 2935777     | 1           | 15.85€   | Calções de Ganga        |  Homem      |  Verão      |
+| 2934877     | 2           | 29.99€   | Calças Fato Treino      |  Unisexo    |  Outono     |
 
 ### TAMANHO
 | Codigo    |  CategoriaPeça     |  UnidadeMedida  |
