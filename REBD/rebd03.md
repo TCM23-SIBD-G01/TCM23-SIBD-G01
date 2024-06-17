@@ -196,22 +196,22 @@ STOCK (quantidade)
 | 518475314    | PT4173857154    | PT      | Rui Figueiredo | 930010450 | rfigueiredo@gmail.com   | Rua de Sant'Anna, Ponta Delgada, nº72A 9500-078       | 20    | 56894  |
 
 ### Stock       
-| #codigoBarras -> produto        | quantidade |
-| :------------------------------ | :--------- |
-| 2813888 -> Calções Largos       | 4          |
-| 2819989 -> Vestido Floral       | 12         |
-| 2819979 -> Calças Boca de Sino  | 20         |
-| 2935777 -> Calções de Ganga     | 3          |
-| 2934877 -> Calças Fato Treino   | 10         |
+| CodigoBarras | Quantidade |
+| :------------| :--------- |
+| 2813888      | 4          |
+| 2819989      | 12         |
+| 2819979      | 20         |
+| 2935777      | 3          |
+| 2934877      | 10         |
 
-### Tarefas
-|#id -> funcionarios | descricao |
-| :----------------- | :-------- |
-| 91274 -> Paula Mota      | apoio cliente
-| 26960 -> Sofia Ramos     | provedores
-| 00916 -> Lara Mondego    | caixa registadora
-| 16327 -> Diogo Matos     | caixa registadora
-| 56894 -> Rui Figueiredo  | organizador do stock
+### Tarefa
+| Id    | Descricao             |
+| :---- | :-------------------- |
+| 91274 | apoio cliente         |
+| 26960 | provedores            |
+| 00916 | caixa registadora     |
+| 16327 | caixa registadora     |
+| 56894 | organizador do stock  |
 
 
 
