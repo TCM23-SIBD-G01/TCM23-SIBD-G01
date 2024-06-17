@@ -205,13 +205,13 @@ STOCK (quantidade)
 | 2934877      | 10         |
 
 ### Tarefa
-| Id    | Descricao             |
-| :---- | :-------------------- |
-| 91274 | apoio cliente         |
-| 26960 | provedores            |
-| 00916 | caixa registadora     |
-| 16327 | caixa registadora     |
-| 56894 | organizador do stock  |
+| IdFuncionario    | Descricao             |
+| :--------------- | :-------------------- |
+| 91274            | apoio cliente         |
+| 26960            | provedores            |
+| 00916            | caixa registadora     |
+| 16327            | caixa registadora     |
+| 56894            | organizador do stock  |
 
 
 
