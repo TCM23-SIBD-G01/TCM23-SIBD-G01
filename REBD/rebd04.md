@@ -275,7 +275,6 @@ A tabela funcionario apresenta todas as informações sobre os funcionários que
 | :--------- | :---------------------------------- | :---------- | :---------- | :--------- | :--- |
 | id         | identificador da tabela funcionario | Integer     | -           | Sim        | Não  |
 | nome       | nome completo                       | Varchar     | -           | Não        | Não  |
-| quantidade | número de funcionários              | Integer     | -           | Não        | Não  |
 | contacto   | número telemóvel                    | Integer     | -           | Não        | Não  |
 | nif        | número de identificação fiscal      | Integer     | -           | Não        | Não  |
 | morada     | morada                              | Varchar     | -           | Não        | Não  |
