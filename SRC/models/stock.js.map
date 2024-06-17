@@ -1,1 +1,0 @@
-{"version":3,"file":"stock.js","sourceRoot":"","sources":["../../src/models/stock.ts"],"names":[],"mappings":";;;;AAAA,qDAAsD;AAEtD,MAAa,KAAM,SAAQ,mBAAM;CAchC;AAdD,sBAcC;AAPC;IANC,IAAA,qBAAQ,EAAC;QACR,IAAI,EAAE,QAAQ;QACd,EAAE,EAAE,IAAI;QACR,SAAS,EAAE,KAAK;QAChB,QAAQ,EAAE,IAAI;KACf,CAAC;;2CACmB;AAMrB;IAJC,IAAA,qBAAQ,EAAC;QACR,IAAI,EAAE,QAAQ;QACd,QAAQ,EAAE,IAAI;KACf,CAAC;;yCACiB"}
