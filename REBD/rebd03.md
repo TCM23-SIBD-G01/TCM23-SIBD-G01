@@ -198,11 +198,11 @@ STOCK (quantidade)
 ### Stock       
 | #codigoBarras -> produto        | quantidade |
 | :------------------------------ | :--------- |
-| 2813-888 -> Calções Largos      | 4          |
-| 2819-989 -> Vestido Floral      | 12         |
-| 2819-979 -> Calças Boca de Sino | 20         |
-| 2935-777 -> Calções de Ganga    | 3          |
-| 2934-877 -> Calças Fato Treino  | 10         |
+| 2813888 -> Calções Largos       | 4          |
+| 2819989 -> Vestido Floral       | 12         |
+| 2819979 -> Calças Boca de Sino  | 20         |
+| 2935777 -> Calções de Ganga     | 3          |
+| 2934877 -> Calças Fato Treino   | 10         |
 
 ### Tarefas
 |#id -> funcionarios | descricao |
