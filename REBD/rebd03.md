@@ -39,31 +39,6 @@ STOCK (quantidade)
 | Castelo Branco   | 042429901  | B&R  |
 | Aveiro           | 042429902  | B&R  |
 | Porto            | 042429903  | B&R  |
-| Trás-os-Montes   | 042429904  | B&R  |
-| Faro             | 042429905  | B&R  |
-| Gaia             | 042429906  | B&R  |
-| Coimbra          | 042429907  | B&R  |
-| Bragança         | 042429908  | B&R  |
-| Leiria           | 042429909  | B&R  |
-| Madeira          | 042429910  | B&R  |
-| Vila Real        | 042429911  | B&R  |
-| Setúbal          | 042429912  | B&R  |
-| Coimbra          | 042429913  | B&R  |
-| Portalegre       | 042429914  | B&R  |
-| Beja             | 042429915  | B&R  |
-| Guarda           | 042429916  | B&R  |
-| Évora            | 042429917  | B&R  |
-| Santarém         | 042429918  | B&R  |
-| Viana do Castelo | 042429919  | B&R  |
-| Viseu            | 042429920  | B&R  |
-| Braga            | 042429921  | B&R  |
-| Fátima           | 042429922  | B&R  |
-| Sintra           | 042429923  | B&R  |
-| Espinho          | 042429924  | B&R  |
-| Ovar             | 042429925  | B&R  |
-| Matosinhos       | 042429926  | B&R  |
-| Açores           | 042429927  | B&R  |
-| Guimarães        | 042429928  | B&R  |
 
 ### COMPRA
 | Id       | Data       |  NomeCliente    |  ValorCompra  |   DescontoAplicado  |   MetodoPagamento   |
